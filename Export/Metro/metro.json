@@ -1,0 +1,911 @@
+{
+ "units": "metres. Profiles: (x across, +x = right of travel; y up) relative to deck_top, counter-clockwise, closed. Pier parts: origin on the ground at the pier axis, Unity axes (x across, y up, z along the line).",
+ "rail_top": 12.0,
+ "deck_top": 11.604,
+ "girder_bottom": 9.604,
+ "cap_top": 9.454,
+ "cap_bottom": 7.554,
+ "column_default_top": 7.554,
+ "track_spacing": 4.0,
+ "gauge": 1.435,
+ "span": 30.0,
+ "span_range": [
+  24.0,
+  40.0
+ ],
+ "half_width": 4.7,
+ "post": {
+  "step": 2.0,
+  "w": 0.16,
+  "d": 0.12,
+  "x": 4.48,
+  "y0": 0.55,
+  "y1": 2.55,
+  "mat": "M_MetroSteel",
+  "lods": [
+   0,
+   0
+  ]
+ },
+ "footing": {
+  "w": 4.0,
+  "d": 3.4
+ },
+ "materials": [
+  {
+   "name": "M_MetroConcrete",
+   "color": [
+    0.42,
+    0.41,
+    0.38
+   ],
+   "roughness": 0.85,
+   "metallic": 0.0,
+   "tex": "T_MetroConcrete.png",
+   "normal": "T_MetroConcrete_N.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroConcreteDark",
+   "color": [
+    0.25,
+    0.25,
+    0.24
+   ],
+   "roughness": 0.9,
+   "metallic": 0.0,
+   "tex": "T_MetroConcrete.png",
+   "normal": "T_MetroConcrete_N.png",
+   "tint": [
+    0.55,
+    0.55,
+    0.55
+   ]
+  },
+  {
+   "name": "M_MetroBarrier",
+   "color": [
+    0.7,
+    0.73,
+    0.75
+   ],
+   "roughness": 0.45,
+   "metallic": 0.0,
+   "tex": "T_MetroBarrier.png",
+   "normal": "T_MetroBarrier_N.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroSteel",
+   "color": [
+    0.35,
+    0.34,
+    0.32
+   ],
+   "roughness": 0.35,
+   "metallic": 0.9,
+   "tex": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroYellow",
+   "color": [
+    0.75,
+    0.52,
+    0.06
+   ],
+   "roughness": 0.6,
+   "metallic": 0.0,
+   "tex": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroKerbRed",
+   "color": [
+    0.55,
+    0.05,
+    0.04
+   ],
+   "roughness": 0.7,
+   "metallic": 0.0,
+   "tex": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroKerbWhite",
+   "color": [
+    0.75,
+    0.75,
+    0.72
+   ],
+   "roughness": 0.7,
+   "metallic": 0.0,
+   "tex": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroSoil",
+   "color": [
+    0.06,
+    0.09,
+    0.03
+   ],
+   "roughness": 0.95,
+   "metallic": 0.0,
+   "tex": "",
+   "normal": "",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroGirder",
+   "color": [
+    0.42,
+    0.41,
+    0.38
+   ],
+   "roughness": 0.85,
+   "metallic": 0.0,
+   "tex": "T_MetroGirder.png",
+   "normal": "T_MetroGirder_N.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroPier",
+   "color": [
+    0.42,
+    0.41,
+    0.38
+   ],
+   "roughness": 0.85,
+   "metallic": 0.0,
+   "tex": "T_MetroPier.png",
+   "normal": "T_MetroPier_N.png",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  },
+  {
+   "name": "M_MetroKerbStripe",
+   "color": [
+    0.55,
+    0.3,
+    0.28
+   ],
+   "roughness": 0.75,
+   "metallic": 0.0,
+   "tex": "T_MetroKerbStripe.png",
+   "normal": "",
+   "tint": [
+    1.0,
+    1.0,
+    1.0
+   ]
+  }
+ ],
+ "profiles": [
+  {
+   "name": "girder",
+   "mat": "M_MetroGirder",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "fraction",
+    "u_len": 8.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    4.7,
+    -0.55,
+    4.7,
+    0.0,
+    -4.7,
+    0.0,
+    -4.7,
+    -0.55,
+    -3.2,
+    -0.75,
+    -2.35,
+    -2.0,
+    2.35,
+    -2.0,
+    3.2,
+    -0.75
+   ]
+  },
+  {
+   "name": "parapet_R",
+   "mat": "M_MetroConcrete",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    4.4,
+    0.0,
+    4.7,
+    0.0,
+    4.7,
+    0.55,
+    4.4,
+    0.55
+   ]
+  },
+  {
+   "name": "parapet_L",
+   "mat": "M_MetroConcrete",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -4.4,
+    0.55,
+    -4.7,
+    0.55,
+    -4.7,
+    0.0,
+    -4.4,
+    0.0
+   ]
+  },
+  {
+   "name": "barrier_R",
+   "mat": "M_MetroBarrier",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "height",
+    "u_len": 2.0,
+    "u_off": 1.0
+   },
+   "pts": [
+    4.54,
+    0.55,
+    4.6,
+    0.55,
+    4.6,
+    2.55,
+    4.54,
+    2.55
+   ]
+  },
+  {
+   "name": "barrier_L",
+   "mat": "M_MetroBarrier",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "height",
+    "u_len": 2.0,
+    "u_off": 1.0
+   },
+   "pts": [
+    -4.54,
+    2.55,
+    -4.6,
+    2.55,
+    -4.6,
+    0.55,
+    -4.54,
+    0.55
+   ]
+  },
+  {
+   "name": "barrier_cap_R",
+   "mat": "M_MetroSteel",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    4.51,
+    2.55,
+    4.63,
+    2.55,
+    4.63,
+    2.61,
+    4.51,
+    2.61
+   ]
+  },
+  {
+   "name": "barrier_cap_L",
+   "mat": "M_MetroSteel",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -4.51,
+    2.61,
+    -4.63,
+    2.61,
+    -4.63,
+    2.55,
+    -4.51,
+    2.55
+   ]
+  },
+  {
+   "name": "plinth_AL",
+   "mat": "M_MetroConcreteDark",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -3.0175,
+    0.0,
+    -2.4175,
+    0.0,
+    -2.4175,
+    0.22,
+    -3.0175,
+    0.22
+   ]
+  },
+  {
+   "name": "rail_AL",
+   "mat": "M_MetroSteel",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -2.7925,
+    0.22,
+    -2.6425,
+    0.22,
+    -2.6425,
+    0.232,
+    -2.7085,
+    0.25,
+    -2.7085,
+    0.346,
+    -2.6815,
+    0.356,
+    -2.6815,
+    0.396,
+    -2.7535,
+    0.396,
+    -2.7535,
+    0.356,
+    -2.7265,
+    0.346,
+    -2.7265,
+    0.25,
+    -2.7925,
+    0.232
+   ]
+  },
+  {
+   "name": "plinth_AR",
+   "mat": "M_MetroConcreteDark",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -1.5825,
+    0.0,
+    -0.9825,
+    0.0,
+    -0.9825,
+    0.22,
+    -1.5825,
+    0.22
+   ]
+  },
+  {
+   "name": "rail_AR",
+   "mat": "M_MetroSteel",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -1.3575,
+    0.22,
+    -1.2075,
+    0.22,
+    -1.2075,
+    0.232,
+    -1.2735,
+    0.25,
+    -1.2735,
+    0.346,
+    -1.2465,
+    0.356,
+    -1.2465,
+    0.396,
+    -1.3185,
+    0.396,
+    -1.3185,
+    0.356,
+    -1.2915,
+    0.346,
+    -1.2915,
+    0.25,
+    -1.3575,
+    0.232
+   ]
+  },
+  {
+   "name": "plinth_BL",
+   "mat": "M_MetroConcreteDark",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    0.9825,
+    0.0,
+    1.5825,
+    0.0,
+    1.5825,
+    0.22,
+    0.9825,
+    0.22
+   ]
+  },
+  {
+   "name": "rail_BL",
+   "mat": "M_MetroSteel",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    1.2075,
+    0.22,
+    1.3575,
+    0.22,
+    1.3575,
+    0.232,
+    1.2915,
+    0.25,
+    1.2915,
+    0.346,
+    1.3185,
+    0.356,
+    1.3185,
+    0.396,
+    1.2465,
+    0.396,
+    1.2465,
+    0.356,
+    1.2735,
+    0.346,
+    1.2735,
+    0.25,
+    1.2075,
+    0.232
+   ]
+  },
+  {
+   "name": "plinth_BR",
+   "mat": "M_MetroConcreteDark",
+   "lods": [
+    0,
+    1
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    2.4175,
+    0.0,
+    3.0175,
+    0.0,
+    3.0175,
+    0.22,
+    2.4175,
+    0.22
+   ]
+  },
+  {
+   "name": "rail_BR",
+   "mat": "M_MetroSteel",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    2.6425,
+    0.22,
+    2.7925,
+    0.22,
+    2.7925,
+    0.232,
+    2.7265,
+    0.25,
+    2.7265,
+    0.346,
+    2.7535,
+    0.356,
+    2.7535,
+    0.396,
+    2.6815,
+    0.396,
+    2.6815,
+    0.356,
+    2.7085,
+    0.346,
+    2.7085,
+    0.25,
+    2.6425,
+    0.232
+   ]
+  },
+  {
+   "name": "trough_C",
+   "mat": "M_MetroYellow",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -0.3,
+    0.0,
+    0.3,
+    0.0,
+    0.3,
+    0.28,
+    -0.3,
+    0.28
+   ]
+  },
+  {
+   "name": "trough_R",
+   "mat": "M_MetroYellow",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    3.25,
+    0.0,
+    3.8,
+    0.0,
+    3.8,
+    0.28,
+    3.25,
+    0.28
+   ]
+  },
+  {
+   "name": "trough_L",
+   "mat": "M_MetroYellow",
+   "lods": [
+    0,
+    0
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    -3.25,
+    0.28,
+    -3.8,
+    0.28,
+    -3.8,
+    0.0,
+    -3.25,
+    0.0
+   ]
+  },
+  {
+   "name": "lod2_shell",
+   "mat": "M_MetroConcrete",
+   "lods": [
+    2,
+    2
+   ],
+   "closed": true,
+   "uv": {
+    "mode": "perimeter",
+    "u_len": 4.0,
+    "u_off": 0.0
+   },
+   "pts": [
+    4.7,
+    -0.55,
+    4.7,
+    2.55,
+    4.54,
+    2.55,
+    4.54,
+    0.0,
+    -4.54,
+    0.0,
+    -4.54,
+    2.55,
+    -4.7,
+    2.55,
+    -4.7,
+    -0.55,
+    -3.2,
+    -0.75,
+    -2.35,
+    -2.0,
+    2.35,
+    -2.0,
+    3.2,
+    -0.75
+   ]
+  }
+ ],
+ "planter": {
+  "w": 4.0,
+  "t": 0.22,
+  "h": 0.3,
+  "soil": 0.18000000000000002,
+  "profiles": [
+   {
+    "name": "planter_kerb_R",
+    "mat": "M_MetroKerbStripe",
+    "lods": [
+     0,
+     1
+    ],
+    "closed": true,
+    "uv": {
+     "mode": "height",
+     "u_len": 1.0,
+     "u_off": 0.0
+    },
+    "pts": [
+     1.78,
+     0.0,
+     2.0,
+     0.0,
+     2.0,
+     0.3,
+     1.78,
+     0.3
+    ]
+   },
+   {
+    "name": "planter_kerb_L",
+    "mat": "M_MetroKerbStripe",
+    "lods": [
+     0,
+     1
+    ],
+    "closed": true,
+    "uv": {
+     "mode": "height",
+     "u_len": 1.0,
+     "u_off": 0.0
+    },
+    "pts": [
+     -1.78,
+     0.3,
+     -2.0,
+     0.3,
+     -2.0,
+     0.0,
+     -1.78,
+     0.0
+    ]
+   },
+   {
+    "name": "planter_soil",
+    "mat": "M_MetroSoil",
+    "lods": [
+     0,
+     1
+    ],
+    "closed": true,
+    "uv": {
+     "mode": "perimeter",
+     "u_len": 4.0,
+     "u_off": 0.0
+    },
+    "pts": [
+     -1.78,
+     0.0,
+     1.78,
+     0.0,
+     1.78,
+     0.18,
+     -1.78,
+     0.18
+    ]
+   },
+   {
+    "name": "planter_end",
+    "mat": "M_MetroKerbStripe",
+    "lods": [
+     0,
+     1
+    ],
+    "closed": true,
+    "uv": {
+     "mode": "height",
+     "u_len": 1.0,
+     "u_off": 0.0
+    },
+    "pts": [
+     -2.0,
+     0.0,
+     2.0,
+     0.0,
+     2.0,
+     0.3,
+     -2.0,
+     0.3
+    ]
+   }
+  ]
+ },
+ "shrub": {
+  "variants": 3,
+  "step": 0.9,
+  "row": 0.85,
+  "scale": [
+   0.8,
+   1.25
+  ],
+  "fbx": "SM_MetroShrub.fbx",
+  "meshes": "SM_MetroShrub_<variant>_LOD<lod>, LOD0 M_Foliage cards, LOD1 M_FoliageBlob"
+ },
+ "pier": {
+  "name": "SM_MetroPier",
+  "tris": {
+   "SM_MetroPier_Column_LOD0": 16,
+   "SM_MetroPier_Cap_LOD0": 78,
+   "SM_MetroPier_Footing_LOD0": 192,
+   "SM_MetroPier_Column_LOD1": 16,
+   "SM_MetroPier_Cap_LOD1": 38,
+   "SM_MetroPier_Footing_LOD1": 28
+  },
+  "parts": [
+   "Column",
+   "Cap",
+   "Footing"
+  ]
+ },
+ "shrub_export": {
+  "name": "SM_MetroShrub",
+  "tris": {
+   "SM_MetroShrub_0_LOD0": 72,
+   "SM_MetroShrub_0_LOD1": 72,
+   "SM_MetroShrub_1_LOD0": 72,
+   "SM_MetroShrub_1_LOD1": 72,
+   "SM_MetroShrub_2_LOD0": 72,
+   "SM_MetroShrub_2_LOD1": 72
+  }
+ }
+}

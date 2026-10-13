@@ -1,0 +1,137 @@
+[
+ {
+  "module": "Body_GF",
+  "pos": [
+   0,
+   0,
+   0.0
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "GF_Shop",
+  "pos": [
+   0,
+   0,
+   0.0
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "Body_UF",
+  "pos": [
+   0,
+   0,
+   3.6
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "UF_Balcony",
+  "pos": [
+   0,
+   0,
+   3.6
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "Body_UF",
+  "pos": [
+   0,
+   0,
+   6.9
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "UF_Cage",
+  "pos": [
+   0,
+   0,
+   6.9
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "Body_UF",
+  "pos": [
+   0,
+   0,
+   10.2
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "UF_Shutter",
+  "pos": [
+   0,
+   0,
+   10.2
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "Body_UF",
+  "pos": [
+   0,
+   0,
+   13.499999999999998
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "UF_Balcony",
+  "pos": [
+   0,
+   0,
+   13.499999999999998
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "RF_Terrace",
+  "pos": [
+   0,
+   0,
+   16.8
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "RF_TileRoof",
+  "pos": [
+   0,
+   0,
+   16.8
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "PR_WaterTank",
+  "pos": [
+   1.4,
+   9.0,
+   16.8
+  ],
+  "rotZ": 90
+ },
+ {
+  "module": "PR_AC",
+  "pos": [
+   1.0,
+   0,
+   10.35
+  ],
+  "rotZ": 0
+ },
+ {
+  "module": "PR_AC",
+  "pos": [
+   -1.0,
+   0,
+   10.35
+  ],
+  "rotZ": 0
+ }
+]

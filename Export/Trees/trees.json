@@ -1,0 +1,93 @@
+{
+ "source": "Blender/ManualSculptedTree.blend",
+ "trees": [
+  {
+   "id": "TR_Sau_0",
+   "species": "Sau",
+   "fbx": "FBX/TR_Sau_0.fbx",
+   "hlod": "FBX/HLOD/TR_Sau_0_HLOD.fbx",
+   "height": 14.0,
+   "scale": 2.925,
+   "crown_r": 3.0,
+   "tris": [
+    5888,
+    1944,
+    400
+   ],
+   "hlod_tris": 80,
+   "budget": [
+    6000,
+    2000,
+    400
+   ],
+   "leaf_spacing": 0.2005,
+   "card_size": 1.205
+  },
+  {
+   "id": "TR_XaCu_0",
+   "species": "XaCu",
+   "fbx": "FBX/TR_XaCu_0.fbx",
+   "hlod": "FBX/HLOD/TR_XaCu_0_HLOD.fbx",
+   "height": 15.0,
+   "scale": 3.251,
+   "crown_r": 5.1,
+   "tris": [
+    5924,
+    1944,
+    400
+   ],
+   "hlod_tris": 80,
+   "budget": [
+    6000,
+    2000,
+    400
+   ],
+   "leaf_spacing": 0.3201,
+   "card_size": 1.244
+  },
+  {
+   "id": "TR_Bang_0",
+   "species": "Bang",
+   "fbx": "FBX/TR_Bang_0.fbx",
+   "hlod": "FBX/HLOD/TR_Bang_0_HLOD.fbx",
+   "height": 12.0,
+   "scale": 1.399,
+   "crown_r": 4.54,
+   "tris": [
+    5920,
+    1968,
+    400
+   ],
+   "hlod_tris": 80,
+   "budget": [
+    6000,
+    2000,
+    400
+   ],
+   "leaf_spacing": 0.3338,
+   "card_size": 0.966
+  },
+  {
+   "id": "TR_HoaSua_0",
+   "species": "HoaSua",
+   "fbx": "FBX/TR_HoaSua_0.fbx",
+   "hlod": "FBX/HLOD/TR_HoaSua_0_HLOD.fbx",
+   "height": 13.0,
+   "scale": 1.785,
+   "crown_r": 5.98,
+   "tris": [
+    5912,
+    1916,
+    400
+   ],
+   "hlod_tris": 80,
+   "budget": [
+    6000,
+    2000,
+    400
+   ],
+   "leaf_spacing": 0.3076,
+   "card_size": 1.039
+  }
+ ]
+}

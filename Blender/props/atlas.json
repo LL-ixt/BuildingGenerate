@@ -1,0 +1,46 @@
+{
+ "size": 2048,
+ "regions": {
+  "POLE": [
+   0.0,
+   0.0,
+   0.25,
+   1.0
+  ],
+  "SIGNPOLE": [
+   0.25,
+   0.0,
+   0.3125,
+   1.0
+  ],
+  "BOX": [
+   0.3125,
+   0.75,
+   0.5625,
+   1.0
+  ],
+  "METAL": [
+   0.5625,
+   0.9375,
+   0.625,
+   1.0
+  ],
+  "SIGN": [
+   0.5,
+   0.25,
+   1.0,
+   0.5
+  ]
+ },
+ "pole_h": 8.5,
+ "signpole_h": 3.0,
+ "box_z": [
+  3.32,
+  3.88
+ ],
+ "sources": [
+  "ambientCG Concrete035",
+  "ambientCG PaintedMetal012",
+  "ambientCG Metal021 (CC0)"
+ ]
+}

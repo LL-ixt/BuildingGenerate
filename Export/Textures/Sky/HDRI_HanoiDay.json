@@ -1,0 +1,12 @@
+{
+ "source": "kloofendal_48d_partly_cloudy_puresky_4k.hdr",
+ "sun_u": 0.595,
+ "sun_elevation": 47.9,
+ "horizon": [
+  0.4503,
+  0.4893,
+  0.6034
+ ],
+ "clamp": 12.0,
+ "desaturate": 0.0
+}

@@ -1,0 +1,45 @@
+{
+ "units": "metres, Unity axes: origin = rail top under the car centre, car front = +Z",
+ "gap": 0.6,
+ "consist": [
+  "end",
+  "mid",
+  "mid",
+  "end_turned"
+ ],
+ "cars": [
+  {
+   "name": "SM_Train_End",
+   "kind": "end",
+   "length": 20.0,
+   "tris": {
+    "LOD0": 755,
+    "LOD1": 407,
+    "LOD2": 158
+   },
+   "bogies": [
+    6.0,
+    -6.4
+   ],
+   "front": 10.0,
+   "rear": -10.0
+  },
+  {
+   "name": "SM_Train_Mid",
+   "kind": "mid",
+   "length": 19.0,
+   "tris": {
+    "LOD0": 510,
+    "LOD1": 294,
+    "LOD2": 114
+   },
+   "bogies": [
+    5.9,
+    -5.9
+   ],
+   "front": 9.5,
+   "rear": -9.5
+  }
+ ],
+ "material": "M_Train: Hanoi/Vehicle, Export/Metro/Train/T_Train.png (albedo) + T_TrainData.png (R roughness, G metallic)"
+}

@@ -1,0 +1,363 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Hanoi/City/City_Main.unity
+    guid: 28f60881aaf978445acaa5466d59eefb
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_00.unity
+    guid: 7079e2903a5a16449a14b0ae2d5c3dd9
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_00.unity
+    guid: 86a8e87abe9e3a249882ebae3031ebd4
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_00.unity
+    guid: 62a0811a6bc36c145ac2b96a3018155b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_00.unity
+    guid: 7f680f0f374d205458ca00adf5c4d33f
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_00.unity
+    guid: d99ff9263c1df18408c8831a1294bd33
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_00.unity
+    guid: 880f7889ee14f0940bf542443d39c00d
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_00.unity
+    guid: 5ae120af9ec3f71488158435eb2c0762
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_00.unity
+    guid: 6c9d42bc720623741aee5847619bed9b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_00.unity
+    guid: 9280b04f4d41b094c8ed37744439dac5
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_00.unity
+    guid: 88aedd5554cbb7a469a0f5f16f0d6c8b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_00.unity
+    guid: 1ff96a743cfbcb94e88d52e665638a36
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_00.unity
+    guid: 457a48ff0100e524493eab8ae3228896
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_00.unity
+    guid: 598d557997bb79b489db90734a8f260e
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_01.unity
+    guid: dfd545b3ea560b14f9738e674d855dff
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_01.unity
+    guid: eefda6f6f96d68f4589326a58abaee1b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_01.unity
+    guid: fd4e7f0573f76b54c9cd155fe20c1c61
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_01.unity
+    guid: 870ade435fc95a04fa760d6a1b4b1d7d
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_01.unity
+    guid: fefe629dc097246419e75bba994f8f73
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_01.unity
+    guid: 8cb8d603cf1844c42a21f39a05979578
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_01.unity
+    guid: 98f288ffdb2a21d4da710961f5cdc8a8
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_01.unity
+    guid: 4aa3dc2fbe95ad34ab139a5532c67df6
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_01.unity
+    guid: 568a23012dcfc0f4584da0cf3e01f852
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_01.unity
+    guid: d808d4454b3c5a840972267e52cd429f
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_01.unity
+    guid: 0d3d669f49709374b802ca6d9a4fe307
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_01.unity
+    guid: 2ab5070efdd836941af2b59a57bf9505
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_01.unity
+    guid: c27d3aeed520196449948910cc4f1886
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_02.unity
+    guid: 3d0b1758b18c8b244b3e01e2ba9e4eb0
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_02.unity
+    guid: 1d069a6ac4187374faa59e7903e157d4
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_02.unity
+    guid: 4540e09d6bcb29841bfa6e070636d493
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_02.unity
+    guid: c4c5eb1845996e94d89fcc70f8851914
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_02.unity
+    guid: 4df106101bbd25d45968cbd4bb1007e4
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_02.unity
+    guid: 6b1ddae3796bf9749a6d9246ad124620
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_02.unity
+    guid: bcb403feff5aff847924e3d4d5fe4362
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_02.unity
+    guid: f65d3262f2fdfde46809f1baf7c5154d
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_02.unity
+    guid: 3998e1b2b0b914e4190c7089714b6bcf
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_02.unity
+    guid: abc1acd4a27e3fe418df8a2dc71b0f87
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_02.unity
+    guid: c5c0e197695ac734d80eef941b9f5ab3
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_02.unity
+    guid: adf6912fe9913734b9ce1222ce4ce034
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_03.unity
+    guid: a5024553e0144fa4da9e52ec6514f924
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_03.unity
+    guid: 89a211ded78decf45b83488f50b12038
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_03.unity
+    guid: 3103de43304644546989d30bb9d6bf79
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_03.unity
+    guid: 086239f9162cc52499d8fb49e0d4ced2
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_03.unity
+    guid: 38b0b07d77ce8d042b0d93f1862b8167
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_03.unity
+    guid: 3ab7d8886c8174d48ba6df35374942bf
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_03.unity
+    guid: 2aa29c74239ce6844af1cd07c403f8bb
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_03.unity
+    guid: 59c30e6506fbec34ca01d149b33de2ee
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_03.unity
+    guid: b25bb520999697b4986c8298ce0d79e8
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_03.unity
+    guid: 0060f7ae588a37e48aeafa72d0f2f88b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_03.unity
+    guid: f4c42d8dd47b61c429784b45439cef5f
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_03.unity
+    guid: 88adcc7d9b5166242b51e1e4dc4bb9c0
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_03.unity
+    guid: 98094d2a43d9ccf458a4eefcdb2a5bfb
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_04.unity
+    guid: 886e829e62c118740bf98b5ad3caf968
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_04.unity
+    guid: 675460f746744e24eaf4fe28c65390f0
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_04.unity
+    guid: 78edd070369ef8543ad26f8872a1d5d0
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_04.unity
+    guid: c01ed2109062a844d85508827c63bdaf
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_04.unity
+    guid: 9f95cb49345009147bb33dc95db4e492
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_04.unity
+    guid: 9fd63b383bc8ce94f8014155be1cb8e2
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_04.unity
+    guid: 45d6c7f1554796041bbbfa8689f170a2
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_04.unity
+    guid: fe5341e7559e9024b82bd9ed98472101
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_04.unity
+    guid: 941de2b1da5b4a84d919316798eb14eb
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_04.unity
+    guid: 5e34595ff6f588441b9f1968b811ed76
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_04.unity
+    guid: 45ad02aae43d93a4cbb83aeca61a4884
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_04.unity
+    guid: 5cf7f130555136544a9325660759e024
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_04.unity
+    guid: b54415cad11ae204aa3b3f2c8d811ce8
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_05.unity
+    guid: ad9f4aa29b940b24d94379cfc251384a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_05.unity
+    guid: 8ce2c171c909f0e43a4d4376165f697a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_05.unity
+    guid: 64dd63840edd1d84fb7c101ac0b475a1
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_05.unity
+    guid: 9dd361dd8d895cf48b6bb2a719255d1b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_05.unity
+    guid: e428f96cb11e3b44e86761bd36007081
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_05.unity
+    guid: 2b5cd7e7026bfd94b8ded5953f920d4a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_05.unity
+    guid: c2fa0c68ac3f6994f8c7d3ea66cc4b90
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_05.unity
+    guid: 67dcc4663e94f8d44ac8fa68c95df1ce
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_05.unity
+    guid: 68fe2d4b2154a1d4dadfd580c5c58e2e
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_05.unity
+    guid: b0390418125bc0348b91220e45d6a3a4
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_05.unity
+    guid: b7bd107423fa1524ebbc8140a44ae104
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_05.unity
+    guid: fdc496db6caa2ae48a6c10199d21bf6f
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_05.unity
+    guid: 6fbfd94bdc15dcf48a127d4f269b71ef
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_06.unity
+    guid: 4328b7dbe84a3844aa011387992566f6
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_06.unity
+    guid: 0739c6b8f7fe04c4dbb3ee97c5ab403a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_06.unity
+    guid: 0573bba9642713240affffbfba4b2c11
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_06.unity
+    guid: ae80935615f67c74380ec4607383127e
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_06.unity
+    guid: 26bfbc7e7a6b47948935d1b87af5d768
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_06.unity
+    guid: f3d5691fe4aa2b94ba521c3453a8ae8a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_06.unity
+    guid: f9d1cb8d57b50ea499f2aa7324fe91e0
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_06.unity
+    guid: f91364328790bc640b466d02a754edce
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_06.unity
+    guid: beb55064016498f408f9c53a6df19837
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_06.unity
+    guid: 33467567b7ce2d64680a64b4648fb0c5
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_06.unity
+    guid: 611fdc3ba3578e041b8593d4291a184d
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_06.unity
+    guid: c5c7d3dea49e7ef4a9515fb48f42e29b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_06.unity
+    guid: 05157ce2032182e49b53cce2dbe514ca
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_07.unity
+    guid: dad9206f652938846ac4603326923320
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_07.unity
+    guid: 0b16c78e5b2a40546b9f5e409f83584c
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_07.unity
+    guid: 5328d27395da7664f8f9c686b18123d0
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_07.unity
+    guid: 4ebc1d0469abdf54799a60ddde4ab00b
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_07.unity
+    guid: 3fe9e5c9f8263d94a82fc5683fdd0669
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_07.unity
+    guid: 95ad592752e1aa24ea726738c91aefe7
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_07.unity
+    guid: 58aec97839198ac4da63cced634057b7
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_07.unity
+    guid: ce6e9f96993821c488a397d6bc5eadf7
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_07.unity
+    guid: 28a3b3a985f31634680a5e3502640533
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_07.unity
+    guid: 1ae79a11e28d2604d94053e7c271f77a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_07.unity
+    guid: bae1f9a8d9bbf8e4b85ead1f72538063
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_07.unity
+    guid: 4e72b57ec963f65459d561e7358808cd
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_07.unity
+    guid: aa37d6df0e903b64485bd8ad920b7007
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_00_08.unity
+    guid: f6d9f9e906618a64a809be5700f6e42a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_01_08.unity
+    guid: 58c4d6dcebdbbbe4ca4a2feb74b25dd6
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_02_08.unity
+    guid: 3a5ce4a52b4d36943a472ec3aa3ee832
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_03_08.unity
+    guid: d76aa2158a6291e4e9ca70ac394de9b3
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_04_08.unity
+    guid: 6f6e306c1f82d8345a1126f989490f16
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_05_08.unity
+    guid: d1e0715a5215f05468903603b9caeaf7
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_06_08.unity
+    guid: 8190d6fc22bdd0b42916b8db489f814a
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_07_08.unity
+    guid: e88ca328287eb5843a033b6a5e47187e
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_08_08.unity
+    guid: 215517830b4da2f47892f4584679bfdf
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_09_08.unity
+    guid: ea4f575ac9199df4ca00786fc12d9f36
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_10_08.unity
+    guid: 48d05e894e7b7be4cb90d80c34ea4abe
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_11_08.unity
+    guid: 83fd7fea7afed2e4180e99094f854fd7
+  - enabled: 1
+    path: Assets/Hanoi/City/Chunks/Chunk_12_08.unity
+    guid: 3979f72c4009d8e4b9484c9133feedc0
+  - enabled: 1
+    path: Assets/Hanoi/Metro/Metro.unity
+    guid: 2da9d2520d12f0641b1fec738bfa21b2
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}

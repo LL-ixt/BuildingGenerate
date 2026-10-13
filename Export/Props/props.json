@@ -1,0 +1,123 @@
+{
+ "props": [
+  {
+   "name": "SM_Cart_Rac",
+   "tris": {
+    "LOD0": 2208,
+    "LOD1": 832,
+    "LOD2": 396
+   },
+   "rig_tris": {
+    "LOD0": 2208,
+    "LOD1": 832,
+    "LOD2": 396
+   },
+   "units": "metres, Unity axes (x right, y up, z forward = cart front); origin = ground under the big-wheel axle",
+   "size": [
+    1.04,
+    1.06,
+    1.647
+   ],
+   "material": "M_HanoiMoto (vehicle atlas Export/Vehicles/Textures/T_MotoAtlas.png + T_MotoAtlasData.png, palette cells only); paint tint where UV is in the PAINT cell",
+   "paint_colour_srgb": [
+    88,
+    190,
+    52
+   ],
+   "rig": {
+    "wheel_l": {
+     "pivot": [
+      -0.46,
+      0.33,
+      -0.0
+     ],
+     "radius": 0.33,
+     "spin_axis": [
+      1,
+      0,
+      0
+     ]
+    },
+    "wheel_r": {
+     "pivot": [
+      0.46,
+      0.33,
+      -0.0
+     ],
+     "radius": 0.33,
+     "spin_axis": [
+      1,
+      0,
+      0
+     ]
+    },
+    "caster": {
+     "pivot": [
+      -0.0,
+      0.245,
+      -0.56
+     ],
+     "swivel_axis": [
+      0,
+      1,
+      0
+     ]
+    },
+    "caster_wheel": {
+     "pivot": [
+      -0.0,
+      0.1,
+      -0.595
+     ],
+     "radius": 0.1,
+     "spin_axis": [
+      1,
+      0,
+      0
+     ]
+    },
+    "hierarchy": "FBX is flat: SM_Cart_Rac_Rig > Cart_Body_LODn, Cart_WheelL_LODn, Cart_WheelR_LODn, Cart_Caster_LODn, Cart_CasterWheel_LODn (origins on their pivots), HAND_L/R. In Unity: CasterWheel goes under the Caster pivot; Caster swivels about Y, wheels spin about local X."
+   },
+   "anchors": {
+    "HAND_L": [
+     -0.23,
+     0.98,
+     -1.13
+    ],
+    "HAND_R": [
+     0.23,
+     0.98,
+     -1.13
+    ]
+   }
+  },
+  {
+   "name": "SM_PowerPole",
+   "tris": {
+    "LOD0": 160,
+    "LOD1": 48
+   },
+   "units": "metres, Unity axes (x right, y up, z forward = street side); origin = ground at the pole axis",
+   "size": [
+    0.46,
+    8.5,
+    0.575
+   ],
+   "material": "M_HanoiProps: Export/Props/Textures/T_StreetProps.png (albedo), T_StreetPropsData.png (R roughness, G metallic), T_StreetProps_N.png (OpenGL normal)"
+  },
+  {
+   "name": "SM_SignNgo",
+   "tris": {
+    "LOD0": 120,
+    "LOD1": 30
+   },
+   "units": "metres, Unity axes (x right, y up, z forward = street side); origin = ground at the pole axis",
+   "size": [
+    0.703,
+    3.012,
+    0.072
+   ],
+   "material": "M_HanoiProps: Export/Props/Textures/T_StreetProps.png (albedo), T_StreetPropsData.png (R roughness, G metallic), T_StreetProps_N.png (OpenGL normal)"
+  }
+ ]
+}

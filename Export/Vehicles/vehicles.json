@@ -1,0 +1,132 @@
+{
+ "vehicles": [
+  {
+   "name": "SM_Moto_SH",
+   "tris": {
+    "LOD0": 3124,
+    "LOD1": 1202,
+    "LOD2": 444
+   },
+   "rig_tris": {
+    "LOD0": 3124,
+    "LOD1": 1202,
+    "LOD2": 444
+   },
+   "units": "metres, Unity axes (x right, y up, z forward); origin = ground, wheelbase midpoint",
+   "size": [
+    0.708,
+    1.206,
+    2.004
+   ],
+   "material": "M_HanoiMoto: atlas Blender/moto/T_MotoAtlas.png + T_MotoAtlasData.png; paint tint where UV is in the PAINT cell (u < 0.125, v > 0.875); alpha clip 0.5 (atlas alpha: see-through between the wheel spokes)",
+   "paint_colours_srgb": [
+    [
+     64,
+     92,
+     70
+    ],
+    [
+     232,
+     232,
+     228
+    ],
+    [
+     22,
+     22,
+     24
+    ],
+    [
+     150,
+     20,
+     24
+    ],
+    [
+     120,
+     122,
+     124
+    ],
+    [
+     110,
+     84,
+     60
+    ],
+    [
+     28,
+     54,
+     110
+    ],
+    [
+     200,
+     196,
+     182
+    ]
+   ],
+   "rig": {
+    "steer_pivot": [
+     -0.0,
+     0.6538,
+     0.5529
+    ],
+    "steer_axis": [
+     -0.0,
+     0.9543,
+     -0.299
+    ],
+    "wheel_front": {
+     "pivot": [
+      -0.0,
+      0.2593,
+      0.6765
+     ],
+     "radius": 0.2589,
+     "spin_axis": [
+      1,
+      0,
+      0
+     ]
+    },
+    "wheel_rear": {
+     "pivot": [
+      -0.0,
+      0.2737,
+      -0.6765
+     ],
+     "radius": 0.2742,
+     "spin_axis": [
+      1,
+      0,
+      0
+     ]
+    },
+    "hierarchy": "FBX is flat: SM_Moto_SH_Rig > Body_LODn, Steer_LODn, WheelF_LODn, WheelR_LODn (origins on their pivots), anchors. In Unity: Steer pivot holds Steer_LODn + WheelF pivot (WheelF_LODn); rotate Steer about steer_axis, wheels about local X."
+   },
+   "anchors": {
+    "SEAT_ANCHOR": [
+     -0.0,
+     0.8059,
+     -0.1534
+    ],
+    "HAND_L": [
+     -0.32,
+     0.9883,
+     0.1974
+    ],
+    "HAND_R": [
+     0.32,
+     0.9883,
+     0.1974
+    ],
+    "FOOT_L": [
+     -0.12,
+     0.3031,
+     0.1273
+    ],
+    "FOOT_R": [
+     0.12,
+     0.3031,
+     0.1273
+    ]
+   }
+  }
+ ]
+}
