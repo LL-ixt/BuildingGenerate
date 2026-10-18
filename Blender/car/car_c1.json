@@ -1,0 +1,69 @@
+{
+ "source_tris": 1783140,
+ "slots": {
+  "paint": 125002,
+  "glass": 8608,
+  "light": 357638,
+  "chrome": 116704,
+  "trim": 494124,
+  "plate": 792
+ },
+ "wheels": {
+  "FL": {
+   "axle": [
+    -0.7956,
+    -1.4573,
+    0.3295
+   ],
+   "radius": 0.3297,
+   "width": 0.2394,
+   "tris": 74203
+  },
+  "FR": {
+   "axle": [
+    0.7956,
+    -1.4574,
+    0.3299
+   ],
+   "radius": 0.3297,
+   "width": 0.2394,
+   "tris": 74203
+  },
+  "RL": {
+   "axle": [
+    -0.7941,
+    1.4574,
+    0.3295
+   ],
+   "radius": 0.3297,
+   "width": 0.2394,
+   "tris": 74203
+  },
+  "RR": {
+   "axle": [
+    0.7936,
+    1.4572,
+    0.3294
+   ],
+   "radius": 0.3297,
+   "width": 0.2394,
+   "tris": 74203
+  }
+ },
+ "dims": {
+  "length": 4.962,
+  "width_body": 2.123,
+  "width_mirrors": 2.139,
+  "height": 1.476,
+  "wheelbase": 2.915,
+  "track": 1.591,
+  "real": [
+   4.973,
+   1.9,
+   1.464,
+   2.933
+  ]
+ },
+ "kept_tris": 1399680,
+ "credit": "This work is based on \"VinFast LUX A2.0\" (https://sketchfab.com/3d-models/vinfast-lux-a20-9089d4d7f1ea4de5a4cf924ed6e01410) by Dave Love SketchFab (https://sketchfab.com/Tyler_Dave) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)"
+}

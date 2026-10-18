@@ -18,9 +18,9 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public static class ChunkBuilder
 {
-    const string CityDir = "Assets/Hanoi/City";
-    const string HlodDir = CityDir + "/HLOD";
-    const string MainScene = CityDir + "/City_Main.unity";
+    // main map by default; a test area via CityTarget.With (FlyoverTest.cs)
+    static string HlodDir => CityTarget.HlodDir;
+    static string MainScene => CityTarget.MainScene;
     const string MatDir = "Assets/Hanoi/Materials";
 
     // submesh order = material order on the HLOD renderer

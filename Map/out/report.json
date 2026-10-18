@@ -8,714 +8,2496 @@
  "flags": [
   {
    "kind": "building_dropped",
-   "id": "w892577391",
+   "id": "w29168869",
    "xy": [
-    -4.30095451378023,
-    665.0080283202502
+    -17.91644614276907,
+    -382.86644471102113
    ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 812 m2 (sua tay trong overrides)"
+   "msg": "chi con 4% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w892577302",
+   "id": "w54983354",
    "xy": [
-    135.29448006069526,
-    761.0153212687151
+    -24.584067869448635,
+    97.7933196135259
    ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 774 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w892577318",
-   "xy": [
-    228.3299049209322,
-    651.3477035429711
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 640 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w843817897",
-   "xy": [
-    -1065.1018461594454,
-    900.4146239999423
-   ],
-   "msg": "chi con 12% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w849491248",
-   "xy": [
-    -867.3751885245028,
-    898.7232574049257
-   ],
-   "msg": "chi con 22% dien tich sau khi tru duong/chong lan"
+   "msg": "hinh chu nhat bao lan duong/nha khac 165 m2 (sua tay trong overrides)"
   },
   {
    "kind": "building_cut",
-   "id": "w868988126",
+   "id": "w57745742",
    "xy": [
-    -1265.426331608376,
-    232.07414141889754
+    549.3777848518852,
+    -104.82740416932943
    ],
-   "msg": "bi cat con 51%"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w849491256",
-   "xy": [
-    -1256.0708633682814,
-    558.1813226767678
-   ],
-   "msg": "bi cat con 66%"
+   "msg": "bi cat con 53%"
   },
   {
    "kind": "building_dropped",
-   "id": "w869731378",
+   "id": "w865157686",
    "xy": [
-    -1292.0902409633416,
-    429.9539961846629
+    -64.98126741017225,
+    153.70988252385305
    ],
-   "msg": "chi con 13% dien tich sau khi tru duong/chong lan"
+   "msg": "chi con 47% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w457712249",
+   "id": "r540855",
    "xy": [
-    -1235.9244253161216,
-    -643.4915647604412
+    -464.04163454961457,
+    229.95383448167715
    ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 82 m2 (sua tay trong overrides)"
+   "msg": "chi con 36% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w849491264",
+   "id": "w53574718",
    "xy": [
-    -1164.9002695631862,
-    814.0458232664129
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 59 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w870823022",
-   "xy": [
-    -1268.048680145085,
-    -807.2071513684666
-   ],
-   "msg": "bi cat con 56%"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w849491263",
-   "xy": [
-    -1178.963992172047,
-    893.0975566279768
-   ],
-   "msg": "chi con 35% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w457741999",
-   "xy": [
-    -1267.2520428615253,
-    -579.5521820017568
-   ],
-   "msg": "bi cat con 65%"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w457742001",
-   "xy": [
-    -1283.8204642945,
-    -690.0375896923968
+    -537.5332483032234,
+    -345.83632185267504
    ],
    "msg": "chi con 33% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w457741998",
+   "id": "w54983630",
    "xy": [
-    -1294.990783872667,
-    -556.5578459997889
+    -20.26592305408145,
+    156.58574573697214
    ],
-   "msg": "chi con 15% dien tich sau khi tru duong/chong lan"
+   "msg": "hinh chu nhat bao lan duong/nha khac 385 m2 (sua tay trong overrides)"
   },
   {
    "kind": "building_dropped",
-   "id": "w512285539",
+   "id": "w865157685",
    "xy": [
-    -186.60000202770257,
-    48.22334905007937
+    -87.9533720207936,
+    180.93371552753774
    ],
-   "msg": "nha lon bi duong/nha khac de hoan toan"
+   "msg": "chi con 13% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w512285538",
+   "id": "w54983606",
    "xy": [
-    -1000.2887886817612,
-    -546.7039672481175
+    7.798721337287525,
+    142.80798498430153
    ],
-   "msg": "nha lon bi duong/nha khac de hoan toan"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w968350225",
-   "xy": [
-    -1000.8819079111342,
-    774.8336533893366
-   ],
-   "msg": "bi cat con 59%"
+   "msg": "hinh chu nhat bao lan duong/nha khac 186 m2 (sua tay trong overrides)"
   },
   {
    "kind": "building_dropped",
-   "id": "w180075246",
+   "id": "r551909",
    "xy": [
-    1008.0894305997234,
-    915.0207842350006
-   ],
-   "msg": "chi con 10% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "no_levels",
-   "id": "r12876193",
-   "xy": [
-    -697.2586790278356,
-    -11.628053502666566
-   ],
-   "msg": "nha 5327 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1111106504",
-   "xy": [
-    -996.3482174320312,
-    655.0600400000533
-   ],
-   "msg": "nha 3936 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w868988125",
-   "xy": [
-    -1093.962509821241,
-    358.3463446459636
-   ],
-   "msg": "nha 3732 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "r12757591",
-   "xy": [
-    1237.7104607565573,
-    390.2295135614503
-   ],
-   "msg": "nha 3683 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040441164",
-   "xy": [
-    -1074.1043428151136,
-    -872.3250464417517
-   ],
-   "msg": "nha 3417 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w947549832",
-   "xy": [
-    -622.4042928594366,
-    -161.12838083040063
-   ],
-   "msg": "nha 2944 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1042519229",
-   "xy": [
-    -178.60042471024246,
-    463.88111000008996
-   ],
-   "msg": "nha 2885 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1046133524",
-   "xy": [
-    125.16101094591674,
-    387.3566454668275
-   ],
-   "msg": "nha 2644 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w849491253",
-   "xy": [
-    -1293.7659356816275,
-    601.2267934755188
-   ],
-   "msg": "chi con 32% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1111106503",
-   "xy": [
-    -981.7279031552829,
-    608.0221688252349
-   ],
-   "msg": "nha 2356 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w957452565",
-   "xy": [
-    -1218.3282274062449,
-    126.46881399993889
-   ],
-   "msg": "nha 2354 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040727581",
-   "xy": [
-    -764.1105048585554,
-    -82.04278799994445
-   ],
-   "msg": "nha 2301 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040716511",
-   "xy": [
-    -1100.2210168333163,
-    -75.25370999294907
-   ],
-   "msg": "nha 2266 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1436615523",
-   "xy": [
-    -1204.5835053572584,
-    678.795981199168
-   ],
-   "msg": "nha 2245 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1477348091",
-   "xy": [
-    -1310.480498261336,
-    299.8714538500028
-   ],
-   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1534620610",
-   "xy": [
-    -1156.170246460922,
-    462.5733591141411
-   ],
-   "msg": "nha 2192 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w957452556",
-   "xy": [
-    137.27203026761617,
-    -484.35402395565154
-   ],
-   "msg": "nha 2108 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1317838028",
-   "xy": [
-    -976.4831767854339,
-    -431.2044462712116
-   ],
-   "msg": "nha 2044 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w429035539",
-   "xy": [
-    -767.4181873080936,
-    620.2596670601554
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 283 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040716512",
-   "xy": [
-    -1104.7756935960417,
-    -117.3420284198742
-   ],
-   "msg": "nha 1995 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w957452585",
-   "xy": [
-    315.208835181559,
-    -883.1515044442142
-   ],
-   "msg": "chi con 34% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040441184",
-   "xy": [
-    -875.7500604150589,
-    -761.9632740000865
-   ],
-   "msg": "nha 1941 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1349580445",
-   "xy": [
-    455.23816623021304,
-    -302.7381578150823
-   ],
-   "msg": "nha 1915 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w916528081",
-   "xy": [
-    -1201.468820436182,
-    -848.9397648038773
-   ],
-   "msg": "nha 1835 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040467287",
-   "xy": [
-    -1217.9634696924645,
-    -767.6877422730771
-   ],
-   "msg": "nha 1686 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1316351170",
-   "xy": [
-    847.3611179600757,
-    -654.170827777113
-   ],
-   "msg": "nha 1655 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040441185",
-   "xy": [
-    -907.1883080005379,
-    -782.6397810000016
-   ],
-   "msg": "nha 1650 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w876213212",
-   "xy": [
-    -905.4059412361178,
-    434.95279199999476
-   ],
-   "msg": "nha 1607 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1104889788",
-   "xy": [
-    -1261.9229768808395,
-    -214.45840372451352
-   ],
-   "msg": "nha 1571 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w947559481",
-   "xy": [
-    116.34749808855109,
-    183.89434400006058
-   ],
-   "msg": "nha 1549 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w892577250",
-   "xy": [
-    266.7048129143887,
-    535.7371786231816
-   ],
-   "msg": "nha 1546 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "no_levels",
-   "id": "w1040727582",
-   "xy": [
-    -810.6443076889856,
-    -116.69707799982939
-   ],
-   "msg": "nha 1511 m2 khong co so tang (dat building:levels trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "r12876196",
-   "xy": [
-    -764.4158236182649,
-    -80.83500379042378
-   ],
-   "msg": "nha lon bi duong/nha khac de hoan toan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w947549831",
-   "xy": [
-    -600.8399678124741,
-    -93.20965122454669
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 144 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w947208591",
-   "xy": [
-    1278.281831632432,
-    226.9007404811156
-   ],
-   "msg": "chi con 42% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w947549835",
-   "xy": [
-    -631.612532748049,
-    -153.52364828077108
-   ],
-   "msg": "nha lon bi duong/nha khac de hoan toan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1317837909",
-   "xy": [
-    -1043.5293805860817,
-    -321.374241674823
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 126 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w947549827",
-   "xy": [
-    -750.7920689552783,
-    -166.4424300122376
-   ],
-   "msg": "chi con 15% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w457932534",
-   "xy": [
-    -1297.29323685927,
-    -704.4440406081735
-   ],
-   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w755377857",
-   "xy": [
-    -889.1312429536758,
-    -389.1269085962904
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 483 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w888367938",
-   "xy": [
-    655.534422303836,
-    875.50996200005
-   ],
-   "msg": "bi cat con 50%"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1317837911",
-   "xy": [
-    -1024.2275973187875,
-    -340.9435524928492
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 49 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w1040716528",
-   "xy": [
-    -1279.5582325174655,
-    -108.92403008882015
-   ],
-   "msg": "bi cat con 61%"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w888367940",
-   "xy": [
-    645.2727382359031,
-    905.3342001501461
-   ],
-   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1040514096",
-   "xy": [
-    -506.1400396049433,
-    -887.4952562129893
-   ],
-   "msg": "chi con 43% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w909078289",
-   "xy": [
-    393.5363911964678,
-    901.9445417645227
-   ],
-   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w947208588",
-   "xy": [
-    1291.3042114504708,
-    430.8110939091649
-   ],
-   "msg": "chi con 16% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1046109400",
-   "xy": [
-    -1240.3493296505676,
-    372.51825910331337
-   ],
-   "msg": "nha lon bi duong/nha khac de hoan toan"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1189350851",
-   "xy": [
-    263.5570136824773,
-    443.98669243337315
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 62 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1318024608",
-   "xy": [
-    -53.550177808624596,
-    -76.40602963028083
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 47 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1317838102",
-   "xy": [
-    -1113.2505036284174,
-    -534.725577275316
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 70 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1088223325",
-   "xy": [
-    750.1207190751337,
-    501.92498049423267
-   ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 64 m2 (sua tay trong overrides)"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1111106171",
-   "xy": [
-    766.8280141078083,
-    895.1631800432784
-   ],
-   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
-  },
-  {
-   "kind": "building_cut",
-   "id": "w1111106170",
-   "xy": [
-    736.2112445751583,
-    880.7900764095853
-   ],
-   "msg": "bi cat con 56%"
-  },
-  {
-   "kind": "building_dropped",
-   "id": "w1063198340",
-   "xy": [
-    -975.5227234613284,
-    758.5856470676745
+    429.0077348926012,
+    355.63723126203246
    ],
    "msg": "chi con 24% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w1317837950",
+   "id": "w55697124",
    "xy": [
-    -959.0218564721054,
-    -435.97351622888334
+    -190.94971655402327,
+    -327.0724315305211
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 127 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "r558386",
+   "xy": [
+    -168.69301129205815,
+    -342.9036541919416
+   ],
+   "msg": "bi cat con 57%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562839",
+   "xy": [
+    -129.46950946385917,
+    -355.0251414924905
+   ],
+   "msg": "chi con 31% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r540890",
+   "xy": [
+    -436.00925277792487,
+    313.0427468481143
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 49 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550318",
+   "xy": [
+    -332.43291749920786,
+    352.3948078337468
+   ],
+   "msg": "chi con 35% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551550",
+   "xy": [
+    477.37099392793135,
+    348.87476998362325
+   ],
+   "msg": "chi con 47% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53669430",
+   "xy": [
+    -564.5958783023816,
+    -61.14222359193722
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55940165",
+   "xy": [
+    59.014308391930435,
+    -335.24070522915326
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r558387",
+   "xy": [
+    -186.21251139606346,
+    -341.49137686574585
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 52 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r540891",
+   "xy": [
+    -379.55859385632925,
+    326.20773252123706
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 24 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582129",
+   "xy": [
+    -429.8675845787168,
+    -267.1009603979188
+   ],
+   "msg": "chi con 17% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55750704",
+   "xy": [
+    -142.2077869987558,
+    -189.91272830994052
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 26 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w49363309",
+   "xy": [
+    -265.2516631446058,
+    -352.03317137752
+   ],
+   "msg": "chi con 31% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54982721",
+   "xy": [
+    -150.13602588813316,
+    190.53339155585203
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 37 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55750697",
+   "xy": [
+    -138.67149022924386,
+    -242.42761409745302
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 16 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w53669429",
+   "xy": [
+    -549.7879076408146,
+    -73.48146499983956
+   ],
+   "msg": "bi cat con 54%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54036450",
+   "xy": [
+    -543.8600917849535,
+    280.7982912166278
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 70 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54034936",
+   "xy": [
+    -365.53191730967865,
+    293.60535389763703
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 34 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w53669437",
+   "xy": [
+    -528.2111059150413,
+    -184.52106176965236
+   ],
+   "msg": "bi cat con 54%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54982846",
+   "xy": [
+    -121.35341623856945,
+    355.2309035347532
+   ],
+   "msg": "chi con 7% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54036445",
+   "xy": [
+    -557.3116497152483,
+    295.9589225932944
+   ],
+   "msg": "chi con 26% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53933265",
+   "xy": [
+    -227.29806581452482,
+    253.53732224270047
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 17 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w49363308",
+   "xy": [
+    -280.653845637885,
+    -354.86085038290287
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w56303936",
+   "xy": [
+    0.9080992953545112,
+    297.1134090186571
+   ],
+   "msg": "bi cat con 65%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582138",
+   "xy": [
+    -455.47711514877915,
+    -175.38121162780394
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 16 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582143",
+   "xy": [
+    -435.05776281405707,
+    -156.83932338315108
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 25 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56684501",
+   "xy": [
+    75.15950271368447,
+    220.70259190572025
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w56670621",
+   "xy": [
+    139.50781551484602,
+    343.8436202537787
+   ],
+   "msg": "bi cat con 56%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582133",
+   "xy": [
+    -440.9003071745552,
+    -175.55410100003232
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 14 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53671130",
+   "xy": [
+    -501.6036726101023,
+    -80.50712833632156
+   ],
+   "msg": "chi con 39% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56687776",
+   "xy": [
+    32.499271901594234,
+    23.30168515910484
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54037117",
+   "xy": [
+    -515.135021836291,
+    294.03452972114763
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 7 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55698746",
+   "xy": [
+    -277.0787116490681,
+    -208.71422320573018
+   ],
+   "msg": "chi con 6% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53933274",
+   "xy": [
+    -257.94742545973486,
+    279.0373294461475
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53596352",
+   "xy": [
+    -555.452640313906,
+    -231.28065665244768
+   ],
+   "msg": "chi con 39% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582131",
+   "xy": [
+    -441.2365736810119,
+    -185.3176846151902
+   ],
+   "msg": "chi con 24% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582140",
+   "xy": [
+    -455.30694013983856,
+    -158.1816720989466
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 6 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55848926",
+   "xy": [
+    75.63012633160751,
+    -126.40471501101513
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 13 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53684474",
+   "xy": [
+    -455.2964533020842,
+    -100.3177186561994
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 3 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48646285",
+   "xy": [
+    -357.81684252805405,
+    43.29240060995754
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r5677700",
+   "xy": [
+    -580.9241526780232,
+    28.934596848587052
+   ],
+   "msg": "chi con 12% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56651300",
+   "xy": [
+    267.89586208848544,
+    370.9571613870093
+   ],
+   "msg": "chi con 9% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55760878",
+   "xy": [
+    -110.1203244688453,
+    -358.32167433401656
+   ],
+   "msg": "chi con 25% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550317",
+   "xy": [
+    -352.9246179621492,
+    370.5260272714227
+   ],
+   "msg": "chi con 4% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "r570456",
+   "xy": [
+    452.8777729209365,
+    -339.06486899982957
+   ],
+   "msg": "bi cat con 66%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550322",
+   "xy": [
+    -312.4672287824799,
+    359.48860868944126
+   ],
+   "msg": "chi con 20% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54983722",
+   "xy": [
+    -186.81517790361164,
+    199.7443369501258
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 70 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551562",
+   "xy": [
+    150.98468096316626,
+    -35.499148758859455
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 231 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r538266",
+   "xy": [
+    -351.4925180093788,
+    -55.25029173837656
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 70 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54979166",
+   "xy": [
+    -280.81319055206376,
+    326.4753848570741
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 112 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55489272",
+   "xy": [
+    -223.29651936092566,
+    92.78959584845296
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 185 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r540869",
+   "xy": [
+    -560.000438725471,
+    339.9426746289965
+   ],
+   "msg": "chi con 37% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53686413",
+   "xy": [
+    -357.95236126515465,
+    -72.8445276737862
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 102 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55698715",
+   "xy": [
+    -322.5017772624902,
+    -192.58042845366822
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 153 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570129",
+   "xy": [
+    248.80638643285542,
+    -117.74507714138558
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 92 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53669451",
+   "xy": [
+    -531.7253757404407,
+    -122.7960756309062
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 37 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562781",
+   "xy": [
+    8.134171951994833,
+    -66.7252634229964
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 30 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57392905",
+   "xy": [
+    568.0793237228596,
+    215.0672721926207
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54953336",
+   "xy": [
+    -342.38991877099284,
+    358.4838807766607
+   ],
+   "msg": "chi con 20% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55940161",
+   "xy": [
+    47.987787583832116,
+    -353.4152128710165
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53671123",
+   "xy": [
+    -481.2156425039378,
+    -102.42591445013358
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 87 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48647736",
+   "xy": [
+    -371.32922127135487,
+    90.87610822795756
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 39 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562696",
+   "xy": [
+    -207.3155462018615,
+    -160.22555902942847
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 23 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53671116",
+   "xy": [
+    -429.7824818634858,
+    -140.09545533658218
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 110 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55760879",
+   "xy": [
+    -29.4263514869992,
+    -256.52620638853136
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 34 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53669435",
+   "xy": [
+    -484.07671156956275,
+    -199.33723956541607
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 60 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54979151",
+   "xy": [
+    -216.26984665002766,
+    346.1833037599839
+   ],
+   "msg": "chi con 33% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54953450",
+   "xy": [
+    -295.1266693571106,
+    360.19738640049866
    ],
    "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "building_dropped",
-   "id": "w710355837",
+   "id": "w55760870",
    "xy": [
-    323.0465385142673,
-    836.2158691124001
+    -24.572048260058995,
+    -246.711710384246
    ],
-   "msg": "hinh chu nhat bao lan duong/nha khac 38 m2 (sua tay trong overrides)"
+   "msg": "hinh chu nhat bao lan duong/nha khac 16 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48646273",
+   "xy": [
+    -388.6415399539342,
+    13.759562388627552
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 30 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562782",
+   "xy": [
+    57.603531053464536,
+    -78.74805965731662
+   ],
+   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53684467",
+   "xy": [
+    -377.3890568132,
+    -106.2060133547059
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 26 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53669444",
+   "xy": [
+    -500.979570359638,
+    -191.4358844806484
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 26 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53582127",
+   "xy": [
+    -430.31031093656645,
+    -285.31068304410627
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 37 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54979124",
+   "xy": [
+    -189.680807334486,
+    349.52020754080417
+   ],
+   "msg": "chi con 25% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562794",
+   "xy": [
+    -22.393572751009692,
+    -96.06582573082144
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 16 m2 (sua tay trong overrides)"
   },
   {
    "kind": "building_cut",
-   "id": "w1420752192",
+   "id": "w55751643",
    "xy": [
-    428.05226871197016,
-    49.632396529497726
+    -171.32461693681626,
+    48.05267277737865
+   ],
+   "msg": "bi cat con 54%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562692",
+   "xy": [
+    -124.2707217984556,
+    -165.9455706128175
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 30 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54979142",
+   "xy": [
+    -238.0406202878638,
+    319.33417677072157
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 93 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57403542",
+   "xy": [
+    556.4238555357032,
+    -68.64071483362686
+   ],
+   "msg": "chi con 8% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w56303945",
+   "xy": [
+    -11.501943548036632,
+    345.6114739777766
+   ],
+   "msg": "bi cat con 53%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550828",
+   "xy": [
+    -110.96474347446204,
+    350.2247169940866
+   ],
+   "msg": "chi con 36% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55760892",
+   "xy": [
+    -56.37832953738237,
+    -300.5440581397696
+   ],
+   "msg": "chi con 6% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550784",
+   "xy": [
+    -203.37302992689072,
+    352.3885291600603
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56697018",
+   "xy": [
+    454.4751668523406,
+    203.1567286904139
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 14 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54034934",
+   "xy": [
+    -351.27749235705676,
+    288.8244390002178
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 15 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550827",
+   "xy": [
+    -157.54940173733138,
+    182.7392009999131
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 10 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56305184",
+   "xy": [
+    70.89189471249146,
+    358.0785189323524
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54036440",
+   "xy": [
+    -560.6371384379268,
+    307.92755897139943
+   ],
+   "msg": "chi con 9% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55757955",
+   "xy": [
+    30.347748333784057,
+    -12.774394352501751
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 36 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54982860",
+   "xy": [
+    -124.60489600848085,
+    177.10546053925268
+   ],
+   "msg": "chi con 27% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w57392885",
+   "xy": [
+    553.5296562697797,
+    199.08179371370545
    ],
    "msg": "bi cat con 67%"
   },
   {
-   "kind": "block_no_frontage",
-   "id": "b131",
+   "kind": "building_dropped",
+   "id": "w55750710",
    "xy": [
-    322.8269343897801,
-    772.5268133886652
+    -195.98019781082183,
+    -121.5082910929026
    ],
-   "msg": "khoi 207 m2 khong giap duong nao (ngo thieu trong OSM?)"
+   "msg": "chi con 16% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53684464",
+   "xy": [
+    -390.3999365748265,
+    -119.59137007714563
+   ],
+   "msg": "chi con 37% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56305221",
+   "xy": [
+    32.93332139754485,
+    349.2425220402792
+   ],
+   "msg": "chi con 42% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55750715",
+   "xy": [
+    -188.97032872064932,
+    -103.03258484660674
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56671697",
+   "xy": [
+    109.49783979042894,
+    249.02901198349792
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w55988172",
+   "xy": [
+    211.54511253040064,
+    -319.03980399495344
+   ],
+   "msg": "bi cat con 63%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53669449",
+   "xy": [
+    -557.5907569037244,
+    -123.21629030897692
+   ],
+   "msg": "chi con 23% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48647764",
+   "xy": [
+    -359.02096740385474,
+    133.95655999522478
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54037118",
+   "xy": [
+    -514.5492294033108,
+    288.10164175575153
+   ],
+   "msg": "chi con 13% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w53669450",
+   "xy": [
+    -552.6404581103905,
+    -118.30509661226361
+   ],
+   "msg": "bi cat con 59%"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w56651299",
+   "xy": [
+    219.89082852068134,
+    340.98698933079436
+   ],
+   "msg": "bi cat con 70%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55865853",
+   "xy": [
+    210.79865124192565,
+    -85.69060867655332
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 12 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56305216",
+   "xy": [
+    77.60259454050203,
+    332.01542881161345
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 19 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54983879",
+   "xy": [
+    -184.66574290789208,
+    166.2695728456596
+   ],
+   "msg": "chi con 18% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48647741",
+   "xy": [
+    -346.392667163375,
+    65.94767306791877
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54982822",
+   "xy": [
+    -147.27894001784378,
+    216.61700795703916
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56651307",
+   "xy": [
+    298.68920828086834,
+    351.9478417656567
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w53671124",
+   "xy": [
+    -495.764891359233,
+    -112.75007464001143
+   ],
+   "msg": "bi cat con 63%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55988124",
+   "xy": [
+    208.58874582931338,
+    -329.66576400646136
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 2 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55698730",
+   "xy": [
+    -270.5570258827379,
+    -209.05223256278052
+   ],
+   "msg": "chi con 4% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w56475666",
+   "xy": [
+    325.8681812222581,
+    285.6542403715147
+   ],
+   "msg": "bi cat con 69%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54979131",
+   "xy": [
+    -247.8505649035601,
+    317.9994972208781
+   ],
+   "msg": "chi con 5% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48638715",
+   "xy": [
+    -322.39496398398677,
+    67.27914861764663
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55760874",
+   "xy": [
+    -5.479955060711764,
+    -210.0634246610164
+   ],
+   "msg": "chi con 30% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r2779974",
+   "xy": [
+    -322.5165846760097,
+    23.60494816293996
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 76 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550907",
+   "xy": [
+    367.75994678901105,
+    366.6080900001574
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r2770649",
+   "xy": [
+    -384.2839496674476,
+    29.101739301469934
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 99 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56687778",
+   "xy": [
+    69.54726220542433,
+    109.13954107057553
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 199 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w53669431",
+   "xy": [
+    -551.6242080042191,
+    -154.70508849848585
+   ],
+   "msg": "bi cat con 68%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57390667",
+   "xy": [
+    546.5801615415552,
+    266.55108296305485
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 56 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r538159",
+   "xy": [
+    -574.1139075617813,
+    -125.35804891219804
+   ],
+   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562796",
+   "xy": [
+    43.950827996760474,
+    -96.9068518371
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 111 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53684480",
+   "xy": [
+    -410.6724098359683,
+    -102.47455333079719
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 140 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r538161",
+   "xy": [
+    -544.1371992623714,
+    -92.26163734901877
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 42 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562790",
+   "xy": [
+    9.189929405191965,
+    1.0581321748620063
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 34 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w48646274",
+   "xy": [
+    -379.9385973875579,
+    41.141592945270574
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 36 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56303954",
+   "xy": [
+    -28.617275293999324,
+    350.0252516972136
+   ],
+   "msg": "chi con 42% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56303955",
+   "xy": [
+    63.437290203021455,
+    288.77334811769356
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 38 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54036459",
+   "xy": [
+    -565.9259448806572,
+    351.4212090014005
+   ],
+   "msg": "chi con 1% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55750708",
+   "xy": [
+    -123.52295624379417,
+    -204.76140666101549
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 114 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56691523",
+   "xy": [
+    184.19629135575977,
+    -10.233936172126667
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 52 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551595",
+   "xy": [
+    554.9412524019766,
+    118.93806372428911
+   ],
+   "msg": "chi con 49% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551609",
+   "xy": [
+    456.9455927881988,
+    -226.2663183663105
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 258 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55940143",
+   "xy": [
+    59.61112085571214,
+    -265.7830204526707
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 107 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w56687767",
+   "xy": [
+    68.05011514546716,
+    178.6250986138318
+   ],
+   "msg": "bi cat con 52%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551586",
+   "xy": [
+    568.3011165664487,
+    252.9299288969002
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53669396",
+   "xy": [
+    -567.0461887633429,
+    -108.43852113605935
+   ],
+   "msg": "chi con 18% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550917",
+   "xy": [
+    212.88975046552355,
+    45.83444814818717
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 81 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551559",
+   "xy": [
+    547.4224971233373,
+    -351.9505588023665
+   ],
+   "msg": "chi con 25% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56302691",
+   "xy": [
+    34.797259552130676,
+    231.8393134283671
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 76 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550838",
+   "xy": [
+    186.85121028359444,
+    17.44873899969503
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 73 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56475663",
+   "xy": [
+    329.70799245899656,
+    351.57399310029166
+   ],
+   "msg": "chi con 31% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56475658",
+   "xy": [
+    355.72345089212723,
+    329.85239684958225
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 169 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55698747",
+   "xy": [
+    -306.00289479218935,
+    -199.09972822562145
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 40 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55740335",
+   "xy": [
+    -259.34353485271646,
+    -185.97149265700602
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 75 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w630213860",
+   "xy": [
+    -444.7215841789804,
+    149.155593153077
+   ],
+   "msg": "chi con 6% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w630222417",
+   "xy": [
+    -471.68791886632505,
+    50.14737944379679
+   ],
+   "msg": "chi con 14% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562791",
+   "xy": [
+    19.659642136874904,
+    -122.76366142006177
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 118 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56003306",
+   "xy": [
+    487.9945911669313,
+    -358.3851254203854
+   ],
+   "msg": "chi con 17% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56003317",
+   "xy": [
+    461.7449498666311,
+    -354.4215946923392
+   ],
+   "msg": "chi con 34% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56671696",
+   "xy": [
+    108.55255077133754,
+    284.50999178792586
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 212 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562843",
+   "xy": [
+    -77.12876852848368,
+    -280.81659134221707
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 153 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56687769",
+   "xy": [
+    141.29425337274134,
+    32.199678202176976
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 388 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r3370911",
+   "xy": [
+    475.9828049119179,
+    -107.64858096887525
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 934 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w251145783",
+   "xy": [
+    334.79557589867443,
+    -16.990021371420422
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551507",
+   "xy": [
+    213.30389939037244,
+    -57.99881992245611
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 154 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w867533402",
+   "xy": [
+    -30.613017902051524,
+    79.81688715587835
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r3505086",
+   "xy": [
+    -153.75345989017487,
+    -158.9314724662532
+   ],
+   "msg": "chi con 6% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "no_levels",
+   "id": "r3371164",
+   "xy": [
+    285.9222491631359,
+    -86.1906969155524
+   ],
+   "msg": "nha 4442 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550885",
+   "xy": [
+    317.15822480433775,
+    115.73527271627496
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 464 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "no_levels",
+   "id": "w57401924",
+   "xy": [
+    417.9521892906976,
+    81.56384330982912
+   ],
+   "msg": "nha 2033 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "no_levels",
+   "id": "w55742120",
+   "xy": [
+    -201.68971371065803,
+    -209.5405339298818
+   ],
+   "msg": "nha 2026 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "no_levels",
+   "id": "w57401902",
+   "xy": [
+    458.03641610142176,
+    20.395483526359364
+   ],
+   "msg": "nha 1933 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r569321",
+   "xy": [
+    -1.5196481626423164,
+    -312.3654587195235
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 419 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "no_levels",
+   "id": "r551604",
+   "xy": [
+    538.7089662948849,
+    162.22285501651538
+   ],
+   "msg": "nha 1695 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "no_levels",
+   "id": "w55036139",
+   "xy": [
+    404.83557695460826,
+    185.55693261568857
+   ],
+   "msg": "nha 1670 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551525",
+   "xy": [
+    567.0318895379194,
+    40.300778083086314
+   ],
+   "msg": "chi con 23% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "no_levels",
+   "id": "r550871",
+   "xy": [
+    258.38995705495876,
+    15.284893633939838
+   ],
+   "msg": "nha 1618 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r568392",
+   "xy": [
+    103.045159087151,
+    -106.37321282838886
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 163 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551468",
+   "xy": [
+    224.5009052440017,
+    -13.47101260081375
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 338 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54037101",
+   "xy": [
+    -478.5721289110438,
+    302.75209515204614
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 170 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550925",
+   "xy": [
+    278.9489678499747,
+    196.73107564390256
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 312 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55036191",
+   "xy": [
+    383.3011507504078,
+    165.0794386272938
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 157 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w801801019",
+   "xy": [
+    341.7530353176217,
+    208.4239104735022
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 428 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r812618",
+   "xy": [
+    557.7912649748195,
+    128.78013510168782
+   ],
+   "msg": "chi con 42% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55697128",
+   "xy": [
+    -176.52651334152975,
+    -293.64805734045575
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 231 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57748684",
+   "xy": [
+    425.49241388272964,
+    -243.09162648096114
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 395 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w865157684",
+   "xy": [
+    -97.34675854082897,
+    113.17464376866053
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562635",
+   "xy": [
+    -244.0750285290253,
+    -132.23228780557545
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 204 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57727944",
+   "xy": [
+    507.5582469957413,
+    -177.08600056234553
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 130 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550934",
+   "xy": [
+    212.3980262359371,
+    373.6211782691244
+   ],
+   "msg": "chi con 12% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550867",
+   "xy": [
+    258.02195024159494,
+    59.531883921032225
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 82 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w55942660",
+   "xy": [
+    137.5181277917589,
+    -331.33108348834145
+   ],
+   "msg": "bi cat con 70%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r2412500",
+   "xy": [
+    387.94447757272945,
+    284.8610503776253
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 137 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w54982976",
+   "xy": [
+    -72.10147385003516,
+    341.3448530306219
+   ],
+   "msg": "bi cat con 56%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57727927",
+   "xy": [
+    578.4693831065774,
+    -247.08797340419517
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562716",
+   "xy": [
+    -180.91299821726213,
+    61.23448009049968
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 282 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r569989",
+   "xy": [
+    218.89243866370353,
+    -206.45917920447863
+   ],
+   "msg": "chi con 41% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55848910",
+   "xy": [
+    347.8110679413654,
+    -246.503289089178
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 173 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550899",
+   "xy": [
+    258.37159629256206,
+    333.2940321713609
+   ],
+   "msg": "chi con 48% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551519",
+   "xy": [
+    411.3930736323328,
+    254.40437632593543
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 103 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570241",
+   "xy": [
+    246.77138096573316,
+    -362.1599523487883
+   ],
+   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550873",
+   "xy": [
+    46.86148057487821,
+    353.6168971869521
+   ],
+   "msg": "chi con 29% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55988158",
+   "xy": [
+    171.7656428877791,
+    -351.65871219003344
+   ],
+   "msg": "chi con 47% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550927",
+   "xy": [
+    10.874239025967094,
+    303.1916097435422
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 90 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56687762",
+   "xy": [
+    45.51616528532696,
+    94.15956007346341
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 288 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "r551452",
+   "xy": [
+    451.4498706959972,
+    339.29648533659207
+   ],
+   "msg": "bi cat con 67%"
+  },
+  {
+   "kind": "building_cut",
+   "id": "r551627",
+   "xy": [
+    546.9619094257004,
+    235.50932948167616
+   ],
+   "msg": "bi cat con 69%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570344",
+   "xy": [
+    318.9538414978121,
+    -363.2150359115404
+   ],
+   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54983100",
+   "xy": [
+    -122.93064417719805,
+    322.9536640000585
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 53 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w57727941",
+   "xy": [
+    544.1765461036655,
+    -221.99398980572172
+   ],
+   "msg": "bi cat con 58%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551583",
+   "xy": [
+    566.7139062023007,
+    -334.93080119207116
+   ],
+   "msg": "chi con 8% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r569368",
+   "xy": [
+    106.17049300419097,
+    -349.7904656700494
+   ],
+   "msg": "chi con 41% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56003291",
+   "xy": [
+    403.6200071039878,
+    -338.74722179452607
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 59 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r558410",
+   "xy": [
+    -336.4205101497557,
+    -235.55603109827962
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 35 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56687775",
+   "xy": [
+    79.35549783673025,
+    153.24702924693892
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 81 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57727918",
+   "xy": [
+    571.3931411589701,
+    -198.35372865093885
+   ],
+   "msg": "chi con 2% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55865855",
+   "xy": [
+    116.36255860330483,
+    -69.95017166551169
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 49 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54983203",
+   "xy": [
+    -146.95844774414317,
+    285.2695551482074
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 68 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w865157683",
+   "xy": [
+    -69.00321878123663,
+    191.42322107539238
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57403553",
+   "xy": [
+    555.0881303276639,
+    -42.04400640860775
+   ],
+   "msg": "chi con 40% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570361",
+   "xy": [
+    340.5928145742438,
+    -332.6979478490165
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 42 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r562840",
+   "xy": [
+    -71.14083538884096,
+    -261.0113180951562
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 183 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53912309",
+   "xy": [
+    -326.9869212507737,
+    167.4545360247018
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 420 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r540561",
+   "xy": [
+    -320.41522227489116,
+    289.1501235897885
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 119 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55981011",
+   "xy": [
+    259.25974281144613,
+    -235.98989546599464
+   ],
+   "msg": "chi con 44% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57727920",
+   "xy": [
+    526.3466051923843,
+    -137.84689837069698
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 45 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57720415",
+   "xy": [
+    298.54489901072265,
+    -120.63859138346851
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 90 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55940148",
+   "xy": [
+    89.54897005183327,
+    -285.19336158027295
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 76 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57748739",
+   "xy": [
+    555.5623082142578,
+    -277.10236953422327
+   ],
+   "msg": "chi con 49% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r556196",
+   "xy": [
+    -228.6045445788825,
+    69.08632870088199
+   ],
+   "msg": "chi con 8% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w53921132",
+   "xy": [
+    -320.01953255226,
+    231.05272263159273
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 179 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56697044",
+   "xy": [
+    405.97509317593915,
+    297.0393451831641
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 97 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56651316",
+   "xy": [
+    221.65757605849657,
+    360.6643034213961
+   ],
+   "msg": "chi con 22% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55848925",
+   "xy": [
+    121.82809953111602,
+    -180.53893951301023
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 88 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w1459909250",
+   "xy": [
+    507.56454007711073,
+    48.868883860385125
+   ],
+   "msg": "bi cat con 54%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w801801017",
+   "xy": [
+    340.71491671359337,
+    240.1721958770543
+   ],
+   "msg": "chi con 48% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "r550926",
+   "xy": [
+    228.45342106206374,
+    340.2525794150513
+   ],
+   "msg": "bi cat con 62%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55698726",
+   "xy": [
+    -315.33894413489054,
+    -218.55429072393
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 234 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w57403548",
+   "xy": [
+    546.3450196866224,
+    -26.31065302648232
+   ],
+   "msg": "bi cat con 62%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55750734",
+   "xy": [
+    -109.55830943631545,
+    -182.76930060407074
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 103 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54034929",
+   "xy": [
+    -367.74456898126545,
+    255.46897266888914
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 37 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56670239",
+   "xy": [
+    205.44114969843784,
+    289.7428383985274
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 55 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56670638",
+   "xy": [
+    168.3961415305138,
+    300.55713652108506
+   ],
+   "msg": "chi con 49% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55697103",
+   "xy": [
+    -237.7829867435585,
+    -248.13535483536563
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 114 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56687785",
+   "xy": [
+    130.2133294703498,
+    143.34514066847137
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 154 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57390660",
+   "xy": [
+    530.3837505124874,
+    237.35550844861461
+   ],
+   "msg": "chi con 36% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570125",
+   "xy": [
+    287.5037851399917,
+    -332.9075762792094
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 45 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56651318",
+   "xy": [
+    195.28862940075274,
+    365.4479938304234
+   ],
+   "msg": "chi con 8% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57727926",
+   "xy": [
+    562.9240874015564,
+    -163.45674995082456
+   ],
+   "msg": "chi con 6% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551622",
+   "xy": [
+    528.6639272003912,
+    98.5606613935471
+   ],
+   "msg": "chi con 42% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55697130",
+   "xy": [
+    -248.66503784092404,
+    -283.4751252246962
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 224 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54982820",
+   "xy": [
+    -170.6101925329864,
+    239.22889039102174
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 65 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w57727948",
+   "xy": [
+    551.1457944132799,
+    -202.6833494363535
+   ],
+   "msg": "bi cat con 66%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w1155050510",
+   "xy": [
+    345.1732540608427,
+    -42.72923699980204
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r568385",
+   "xy": [
+    154.33148840515855,
+    -109.08937836392074
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 96 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54037110",
+   "xy": [
+    -413.0024383498631,
+    316.5879969784766
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 20 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w57720439",
+   "xy": [
+    401.0770908911616,
+    -178.49901853666378
+   ],
+   "msg": "chi con 43% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r568395",
+   "xy": [
+    41.1752546190956,
+    -182.98249851363235
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 121 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54983395",
+   "xy": [
+    -93.77395836343257,
+    308.970825308805
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 26 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56671692",
+   "xy": [
+    214.21740830558866,
+    214.2907032896614
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 54 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55750696",
+   "xy": [
+    -200.74072647869684,
+    -227.21810112481583
+   ],
+   "msg": "chi con 13% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55942658",
+   "xy": [
+    114.69094628178723,
+    -326.1655311890088
+   ],
+   "msg": "chi con 49% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "r550912",
+   "xy": [
+    245.260884912658,
+    335.6904339286304
+   ],
+   "msg": "bi cat con 66%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55751647",
+   "xy": [
+    -194.91232606461764,
+    -15.620189801164877
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 53 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w55751632",
+   "xy": [
+    -190.77290812342034,
+    -4.744317716177152
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 101 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r551486",
+   "xy": [
+    566.250625418548,
+    -112.19517994512621
+   ],
+   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w663947915",
+   "xy": [
+    -540.9630700214203,
+    63.2904171669797
+   ],
+   "msg": "chi con 12% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570237",
+   "xy": [
+    223.33685637288312,
+    -352.17299332031723
+   ],
+   "msg": "chi con 25% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r550829",
+   "xy": [
+    380.5476161858512,
+    263.90150719709305
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 89 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w56651282",
+   "xy": [
+    179.19120870189823,
+    367.0938458536907
+   ],
+   "msg": "nha lon bi duong/nha khac de hoan toan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "r570130",
+   "xy": [
+    220.45745893626156,
+    -153.153318789153
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 26 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w54983299",
+   "xy": [
+    -153.00973400841468,
+    121.07754949357704
+   ],
+   "msg": "chi con 43% dien tich sau khi tru duong/chong lan"
   },
   {
    "kind": "block_no_frontage",
-   "id": "b536",
+   "id": "b3",
    "xy": [
-    -718.7972454432339,
-    -216.68707173473945
+    548.8033254976876,
+    -280.4643855372659
    ],
-   "msg": "khoi 940 m2 khong giap duong nao (ngo thieu trong OSM?)"
+   "msg": "khoi 201 m2 khong giap duong nao (ngo thieu trong OSM?)"
+  },
+  {
+   "kind": "block_no_frontage",
+   "id": "b9",
+   "xy": [
+    549.8220247165091,
+    -58.70888747723859
+   ],
+   "msg": "khoi 316 m2 khong giap duong nao (ngo thieu trong OSM?)"
   }
  ]
 }

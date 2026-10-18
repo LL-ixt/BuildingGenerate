@@ -40,7 +40,7 @@ public class ChunkStreamer : MonoBehaviour
         if (r == null) return;
         if (r.GetComponent<ChunkStreamer>() == null) r.gameObject.AddComponent<ChunkStreamer>();
         // the elevated metro has its own scene (MetroBuilder), always loaded next to the city
-        if (!SceneManager.GetSceneByPath(MetroScene).isLoaded)
+        if (r.loadMetro && !SceneManager.GetSceneByPath(MetroScene).isLoaded)
         {
 #if UNITY_EDITOR
             if (File.Exists(MetroScene))

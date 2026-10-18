@@ -1,0 +1,109 @@
+{
+ "checks": {
+  "lot_overlaps": 0,
+  "lots_on_road": 0,
+  "big_on_road": 0,
+  "lots_on_big": 0
+ },
+ "flags": [
+  {
+   "kind": "flyover_grade",
+   "id": "Cầu vượt Tây Sơn",
+   "xy": [
+    -41.95225365388535,
+    -42.117763167055514
+   ],
+   "msg": "approach grade 8.5% > 6%"
+  },
+  {
+   "kind": "lane_dead_end",
+   "id": "1454173818",
+   "xy": [
+    -130.98485297804632,
+    -32.57608917735168
+   ],
+   "msg": "lane 99 (dead-end road) ends inside the map"
+  },
+  {
+   "kind": "lane_trap",
+   "id": 2,
+   "xy": [
+    -80.35256819914183,
+    -83.34186682510915
+   ],
+   "msg": "2 lanes cannot reach the map edge"
+  },
+  {
+   "kind": "no_levels",
+   "id": "w136257265",
+   "xy": [
+    -110.25607876962036,
+    1.852646638726032
+   ],
+   "msg": "nha 2207 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "no_levels",
+   "id": "w850419282",
+   "xy": [
+    -71.92207122579848,
+    62.13823265584037
+   ],
+   "msg": "nha 2073 m2 khong co so tang (dat building:levels trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w885854282",
+   "xy": [
+    140.3175164083062,
+    -158.51988700020485
+   ],
+   "msg": "chi con 13% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w885854281",
+   "xy": [
+    105.60783728629167,
+    -147.12673854060438
+   ],
+   "msg": "chi con 26% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w826041735",
+   "xy": [
+    138.44927630888142,
+    -5.380087720911332
+   ],
+   "msg": "hinh chu nhat bao lan duong/nha khac 190 m2 (sua tay trong overrides)"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w821395353",
+   "xy": [
+    15.99849687854829,
+    -159.22025793249162
+   ],
+   "msg": "chi con 0% dien tich sau khi tru duong/chong lan"
+  },
+  {
+   "kind": "building_cut",
+   "id": "w164212388",
+   "xy": [
+    177.42291524587674,
+    66.09595837073346
+   ],
+   "msg": "bi cat con 58%"
+  },
+  {
+   "kind": "building_dropped",
+   "id": "w1288835036",
+   "xy": [
+    196.45943203792862,
+    -19.45504642458509
+   ],
+   "msg": "chi con 28% dien tich sau khi tru duong/chong lan"
+  }
+ ]
+}

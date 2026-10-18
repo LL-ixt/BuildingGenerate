@@ -31,10 +31,15 @@ CBUFFER_START(UnityPerMaterial)
     half4  _PaintColor;
     float4 _PaintRect;
     half   _Cutoff, _EmissionGain;
+    // Hanoi/Vehicle (cars): paint where _DataMap.a says so (baked mask) instead of _PaintRect; normal map
+    half   _PaintMaskMode, _BumpScale;
+    // Hanoi/Vehicle (riders, _PaintMaskMode 2): second paint where _DataMap.b says so (helmet), no emission
+    half4  _PaintColor2;
 CBUFFER_END
 
 TEXTURE2D(_BaseMap); SAMPLER(sampler_BaseMap);
-TEXTURE2D(_DataMap); SAMPLER(sampler_DataMap);      // Hanoi/Vehicle: R roughness, G metallic, B emission
+TEXTURE2D(_DataMap); SAMPLER(sampler_DataMap);      // Hanoi/Vehicle: R roughness, G metallic, B emission, A paint mask (cars)
+TEXTURE2D(_BumpMap); SAMPLER(sampler_BumpMap);      // Hanoi/Vehicle: tangent-space normal map (cars; flat for the bikes)
 
 // ------------------------------------------------------------------ hashing / noise
 float HanoiHash11(float p) { p = frac(p * 0.1031); p *= p + 33.33; p *= p + p; return frac(p); }

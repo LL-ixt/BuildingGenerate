@@ -27,17 +27,24 @@ Material:
         m_Texture: {fileID: 2800000, guid: 5bc44e6419bc66142a866598bea1be9c, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _DataMap:
         m_Texture: {fileID: 2800000, guid: e478fa5e79ff2434c855e93ac3424620, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _BumpScale: 1
     - _Cutoff: 0.5
     - _EmissionGain: 1
+    - _PaintMaskMode: 0
     m_Colors:
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _PaintColor: {r: 0.09, g: 0.09, b: 0.1, a: 1}
+    - _PaintColor2: {r: 0.62, g: 0.079999976, b: 0.089999996, a: 1}
     - _PaintRect: {r: 0, g: 0.875, b: 0.125, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

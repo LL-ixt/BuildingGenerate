@@ -28,6 +28,8 @@ public class CityChunks : MonoBehaviour
 
     public float chunkSize = 200f;
     public List<Chunk> chunks = new List<Chunk>();
+    [Tooltip("Load the elevated metro scene next to this city in play mode (main map only, not test areas).")]
+    public bool loadMetro = true;
 
     string[] sceneNames;
 

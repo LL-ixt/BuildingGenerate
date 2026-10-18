@@ -1,8 +1,12 @@
-// Motorbikes (Blender/scripts/build_moto.py): one material on a 1024 atlas.
+// Motorbikes (Blender/scripts/build_moto.py) and cars (build_car.py): one material on a 1024 texture.
 //  - _BaseMap: albedo, alpha = clip mask (transparent between the wheel spokes).
 //  - _DataMap: R roughness, G metallic, B emission (lamps).
 //  - UVs inside _PaintRect (the PAINT cell of the palette strip) take _PaintColor. One material per
 //    colour (M_Moto_0..5); the city picks a random colour prefab per bike (no per-instance data).
+//  - Cars (_PaintMaskMode 1): the paint is wherever _DataMap.a says (baked mask, paint baked neutral grey,
+//    so its shading survives: albedo x _PaintColor / grey); _BumpMap = baked tangent-space normals.
+//  - Riders (_PaintMaskMode 2): as 1 (shirt) + a second paint _PaintColor2 where _DataMap.b says (helmet shell);
+//    B is then a mask, not emission.
 Shader "Hanoi/Vehicle"
 {
     Properties
@@ -14,6 +18,10 @@ Shader "Hanoi/Vehicle"
         _EmissionGain ("Lamp Glow", Range(0, 4)) = 1
         _PaintRect ("Paint Cell UV Rect", Vector) = (0, 0.875, 0.125, 1)
         _PaintColor ("Paint Color", Color) = (0.25, 0.36, 0.27, 1)
+        [IntRange] _PaintMaskMode ("Paint Mask: 0 rect, 1 data A (cars), 2 data A + B (riders)", Range(0, 2)) = 0
+        _PaintColor2 ("Paint Color 2 (data B, riders)", Color) = (0.62, 0.08, 0.09, 1)
+        [Normal][NoScaleOffset] _BumpMap ("Normal Map", 2D) = "bump" {}
+        _BumpScale ("Normal Scale", Range(0, 2)) = 1
     }
 
     SubShader
@@ -23,6 +31,7 @@ Shader "Hanoi/Vehicle"
 
         HLSLINCLUDE
         #define HANOI_VEHICLE
+        #define HANOI_NORMALTS
         #include "HanoiCommon.hlsl"
         ENDHLSL
 
@@ -66,9 +75,20 @@ Shader "Hanoi/Vehicle"
             {
                 float2 uv = input.uv;
                 half3 albedo = SAMPLE_TEXTURE2D(_BaseMap, sampler_BaseMap, uv).rgb * _BaseColor.rgb;
-                half3 data = SAMPLE_TEXTURE2D(_DataMap, sampler_DataMap, uv).rgb;
-                if (HanoiInRect(uv, _PaintRect))
+                half4 data4 = SAMPLE_TEXTURE2D(_DataMap, sampler_DataMap, uv);
+                half3 data = data4.rgb;
+                if (_PaintMaskMode > 0.5)
+                {
+                    albedo = lerp(albedo, albedo * _PaintColor.rgb / 0.604, data4.a);   // 0.604 = baked grey 0.8 sRGB, linear
+                    if (_PaintMaskMode > 1.5)
+                    {
+                        albedo = lerp(albedo, albedo * _PaintColor2.rgb / 0.604, data4.b);
+                        data.b = 0;
+                    }
+                }
+                else if (HanoiInRect(uv, _PaintRect))
                     albedo = _PaintColor.rgb;
+                s.normalTS = UnpackNormalScale(SAMPLE_TEXTURE2D(_BumpMap, sampler_BumpMap, uv), _BumpScale);
                 s.albedo = albedo;
                 s.smoothness = 1.0 - data.r;
                 s.metallic = data.g;

@@ -1,0 +1,164 @@
+{
+ "name": "SM_Car_LuxA2",
+ "tris": {
+  "LOD0": 3704,
+  "LOD1": 1212,
+  "LOD2": 454
+ },
+ "rig_tris": {
+  "LOD0": 3704,
+  "LOD1": 1212,
+  "LOD2": 454
+ },
+ "contact": {
+  "LOD0": {
+   "tyres": {
+    "FL": -0.0002,
+    "FR": 0.0002,
+    "RL": -0.0002,
+    "RR": -0.0003
+   },
+   "body_min": 0.2,
+   "merged_min_z": -0.0003
+  },
+  "LOD1": {
+   "tyres": {
+    "FL": -0.0002,
+    "FR": 0.0002,
+    "RL": -0.0002,
+    "RR": -0.0003
+   },
+   "body_min": 0.201,
+   "merged_min_z": -0.0003
+  },
+  "LOD2": {
+   "tyres": {
+    "FL": -0.0002,
+    "FR": 0.0002,
+    "RL": -0.0002,
+    "RR": -0.0003
+   },
+   "body_min": 0.202,
+   "merged_min_z": -0.0003
+  }
+ },
+ "units": "metres, Unity axes (x right, y up, z forward); origin = ground, wheelbase midpoint; the tyres touch y = 0 (checked per LOD in contact)",
+ "size": [
+  2.114,
+  1.273,
+  4.956
+ ],
+ "collider_box": {
+  "center": [
+   0.0,
+   0.887,
+   -0.149
+  ],
+  "size": [
+   2.123,
+   1.173,
+   4.956
+  ]
+ },
+ "material": "Hanoi/Vehicle: _BaseMap T_CarBody.png (albedo, paint baked neutral grey), _DataMap T_CarBodyData.png (R rough, G metal, B lamps, A paint mask -> albedo x _PaintColor), normal T_CarBody_N.png (tangent space). Body UVs in [0, 0.8]^2, rim tile u,v 0.8-1, tyre u 0.8-1 v 0.6-0.8",
+ "paint_colours_srgb": [
+  [
+   0.92,
+   0.92,
+   0.9
+  ],
+  [
+   0.05,
+   0.05,
+   0.06
+  ],
+  [
+   0.62,
+   0.64,
+   0.66
+  ],
+  [
+   0.62,
+   0.06,
+   0.07
+  ],
+  [
+   0.08,
+   0.14,
+   0.32
+  ],
+  [
+   0.36,
+   0.37,
+   0.39
+  ]
+ ],
+ "rig": {
+  "wheels": {
+   "FL": {
+    "pivot": [
+     0.7956,
+     0.3295,
+     1.4573
+    ],
+    "radius": 0.3297,
+    "width": 0.2394,
+    "spin_axis": [
+     1,
+     0,
+     0
+    ],
+    "steer": true
+   },
+   "FR": {
+    "pivot": [
+     -0.7956,
+     0.3299,
+     1.4574
+    ],
+    "radius": 0.3297,
+    "width": 0.2394,
+    "spin_axis": [
+     1,
+     0,
+     0
+    ],
+    "steer": true
+   },
+   "RL": {
+    "pivot": [
+     0.7941,
+     0.3295,
+     -1.4574
+    ],
+    "radius": 0.3297,
+    "width": 0.2394,
+    "spin_axis": [
+     1,
+     0,
+     0
+    ],
+    "steer": false
+   },
+   "RR": {
+    "pivot": [
+     -0.7936,
+     0.3294,
+     -1.4572
+    ],
+    "radius": 0.3297,
+    "width": 0.2394,
+    "spin_axis": [
+     1,
+     0,
+     0
+    ],
+    "steer": false
+   }
+  },
+  "wheelbase": 2.915,
+  "track": 1.591,
+  "hierarchy": "FBX is flat: SM_Car_LuxA2_Rig > Body_LODn, Wheel{FL,FR,RL,RR}_LODn (origins on the axles). Unity: Steer{FL,FR} pivots on the front axles hold the front wheels (rotate about Y); every wheel spins about its local X."
+ },
+ "credit": "This work is based on \"VinFast LUX A2.0\" (https://sketchfab.com/3d-models/vinfast-lux-a20-9089d4d7f1ea4de5a4cf924ed6e01410) by Dave Love SketchFab (https://sketchfab.com/Tyler_Dave) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)"
+}

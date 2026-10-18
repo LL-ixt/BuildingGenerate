@@ -160,15 +160,53 @@ public static class HanoiMotos
                 t.SetParent(p, true);
             return p;
         }
-        var steer = Pivot("Steer", go.transform);
-        Pivot("WheelF", steer);
-        Pivot("WheelR", go.transform);
+        // Lean pivot on the ground under the wheelbase midpoint (= the root origin): the whole bike rolls about
+        // the tyre contact line
+        var lean = new GameObject("Lean").transform;
+        lean.SetParent(go.transform, false);
+        var steer = Pivot("Steer", lean);
+        var wheelF = Pivot("WheelF", steer);
+        var wheelR = Pivot("WheelR", lean);
+        foreach (var t in go.transform.Cast<Transform>().Where(t => t != lean).ToArray())
+            if (t.name.StartsWith("Body_LOD")) t.SetParent(lean, true);
+        var rig = go.AddComponent<MotoRig>();
+        rig.lean = lean; rig.steer = steer; rig.wheelF = wheelF; rig.wheelR = wheelR;
+        var vj = LoadRig();
+        if (vj != null)
+        {
+            rig.wheelRadiusF = vj.wheel_front.radius;
+            rig.wheelRadiusR = vj.wheel_rear.radius;
+            if (vj.steer_axis != null && vj.steer_axis.Length == 3)
+                rig.steerAxis = new Vector3(vj.steer_axis[0], vj.steer_axis[1], vj.steer_axis[2]);
+        }
+        rig.wheelbase = Vector3.Distance(wheelF.position, wheelR.position);
+        rig.paintRenderers = go.GetComponentsInChildren<Renderer>();
         HanoiSetup.SetupLods(go, MotoLodHeights);
         Report(go);
+        Debug.Log($"[Motos] MotoRig: wheel radius F {rig.wheelRadiusF:F3} / R {rig.wheelRadiusR:F3}, wheelbase {rig.wheelbase:F3}, " +
+                  $"steer axis {rig.steerAxis:F3}");
         PrefabUtility.SaveAsPrefabAsset(go, $"{PrefabDir}/{RigId}.prefab");
         Object.DestroyImmediate(go);
         AssetDatabase.SaveAssets();
     }
+
+    [System.Serializable] class VehiclesJ { public VehicleJ[] vehicles; }
+    [System.Serializable] class VehicleJ { public string name; public RigJ rig; }
+    [System.Serializable] internal class RigJ { public float[] steer_axis; public WheelJ wheel_front, wheel_rear; }
+    [System.Serializable] internal class WheelJ { public float radius; }
+
+    /// vehicles.json rig block of the SH (Unity axes).
+    static RigJ LoadRig()
+    {
+        var path = Path.Combine(ExportDir, "vehicles.json");
+        if (!File.Exists(path)) return null;
+        var v = JsonUtility.FromJson<VehiclesJ>(File.ReadAllText(path));
+        return v?.vehicles?.FirstOrDefault(x => x.name == ParkedId)?.rig;
+    }
+
+    /// Paint material k (M_Moto_0..5) for a riding bike (MotoRig.SetPaint).
+    public static Material LoadMaterial(int k) =>
+        AssetDatabase.LoadAssetAtPath<Material>(AssetDatabase.GetAssetPath(LoadParked(k).GetComponentInChildren<Renderer>().sharedMaterial));
 
     static void Report(GameObject go)
     {
@@ -240,7 +278,7 @@ public static class HanoiMotos
         }
         var rig = (GameObject)PrefabUtility.InstantiatePrefab(LoadPrefab(RigId), lodRoot);
         rig.transform.SetPositionAndRotation(new Vector3(200f + 8.2f, 0f, 200f), Quaternion.Euler(0, 90f, 0));
-        rig.transform.Find("Steer").localRotation = Quaternion.AngleAxis(-20f, Vector3.up);   // steered, to show the pivots
+        rig.GetComponent<MotoRig>().Drive(0.5f, -12f, 0f);                // steered + rolled, to show the pivots
         EditorSceneManager.SaveScene(scene, GalleryScene);
         Debug.Log($"[Motos] gallery: {n} parked bikes in front of {houses} tube houses -> {GalleryScene}");
         CaptureShots();

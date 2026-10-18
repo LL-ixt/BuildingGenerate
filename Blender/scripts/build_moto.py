@@ -667,8 +667,7 @@ def export_lods():
         },
         'anchors': {k: to_unity(v) for k, v in anchors(prof).items()},
     })
-    with open(os.path.join(EXPORT_DIR, 'vehicles.json'), 'w', encoding='utf-8') as f:
-        json.dump({'vehicles': [report]}, f, indent=1)
+    hanoi_common.write_vehicle(EXPORT_DIR, report)        # keeps the other vehicles (car)
     return report
 
 

@@ -1,0 +1,82 @@
+{
+ "name": "SM_Rider_M",
+ "tris": {
+  "LOD0": 1532,
+  "LOD1": 500
+ },
+ "units": "metres, Unity axes; origin = the SM_Moto_SH origin (ground, wheelbase midpoint): make it a child of the bike with no offset",
+ "lowest_point": 0.2698,
+ "material": "Hanoi/Vehicle, _PaintMaskMode 2: _BaseMap T_RiderM.png (shirt + helmet shell baked grey 0.8), _DataMap T_RiderMData.png (R rough, G metal, B helmet mask -> _PaintColor2, A shirt mask -> _PaintColor)",
+ "shirt_colours_srgb": [
+  [
+   0.88,
+   0.88,
+   0.86
+  ],
+  [
+   0.55,
+   0.68,
+   0.82
+  ],
+  [
+   0.12,
+   0.17,
+   0.32
+  ],
+  [
+   0.45,
+   0.46,
+   0.47
+  ],
+  [
+   0.16,
+   0.3,
+   0.2
+  ],
+  [
+   0.42,
+   0.1,
+   0.12
+  ]
+ ],
+ "helmet_colours_srgb": [
+  [
+   0.9,
+   0.9,
+   0.88
+  ],
+  [
+   0.06,
+   0.06,
+   0.07
+  ],
+  [
+   0.62,
+   0.08,
+   0.09
+  ],
+  [
+   0.1,
+   0.25,
+   0.6
+  ],
+  [
+   0.55,
+   0.56,
+   0.58
+  ],
+  [
+   0.85,
+   0.7,
+   0.1
+  ]
+ ],
+ "rides": "SM_Moto_SH",
+ "credits": {
+  "polo": "Male Polo Shirt by Namuhekam, MakeHuman community, CC0",
+  "trousers": "M Trousers 01, MakeHuman community (http://www.makehumancommunity.org/node/746), CC-BY",
+  "helmet": "This work is based on \"Mu bao hiem samsung\" (https://sketchfab.com/3d-models/mu-bao-hiem-samsung-89f64ad1071b48939603b8c0fd790b4e) by 3dpro.com.vn (https://sketchfab.com/hai3dpro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "body": "MakeHuman / MPFB base mesh (CC0 output)",
+  "shoes": "ELVS Zombie Killer Sneakers, MakeHuman community (makehumancommunity.org/clothes/elvs_zombie_killer_sneakers.html), CC-BY"
+ }
+}

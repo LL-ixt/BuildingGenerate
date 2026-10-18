@@ -1,0 +1,22 @@
+{
+ "height": 1.687,
+ "height_macro": 0.5547,
+ "tris": {
+  "body": 36972,
+  "helmet": 939508,
+  "Human.Polo_t-shirt": 4106,
+  "Human.m_trousers_01": 3236
+ },
+ "helmet": {
+  "scale": 0.0009915083890942122,
+  "yaw_deg": -46.73,
+  "head_width": 0.17502273619174957,
+  "head_top": 1.6867084503173828
+ },
+ "credits": {
+  "polo": "Male Polo Shirt by Namuhekam, MakeHuman community, CC0",
+  "trousers": "M Trousers 01, MakeHuman community (http://www.makehumancommunity.org/node/746), CC-BY",
+  "helmet": "This work is based on \"Mu bao hiem samsung\" (https://sketchfab.com/3d-models/mu-bao-hiem-samsung-89f64ad1071b48939603b8c0fd790b4e) by 3dpro.com.vn (https://sketchfab.com/hai3dpro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "body": "MakeHuman / MPFB base mesh (CC0 output)"
+ }
+}

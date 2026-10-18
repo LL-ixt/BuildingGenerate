@@ -145,6 +145,13 @@ void HanoiFragment(
     s.smoothness = _Smoothness;
     s.normalTS = half3(0, 0, 1);
     HanoiSurface(input, inputData.viewDirectionWS, s);
+#ifdef HANOI_NORMALTS
+    // normal map from HanoiSurface (s.normalTS): per-pixel world normal for the lighting
+    float sgn = input.tangentWS.w;
+    float3 bitangent = sgn * cross(input.normalWS.xyz, input.tangentWS.xyz);
+    inputData.normalWS = NormalizeNormalPerPixel(
+        TransformTangentToWorld(s.normalTS, half3x3(input.tangentWS.xyz, bitangent, input.normalWS.xyz)));
+#endif
 
     half4 color = UniversalFragmentPBR(inputData, s);
     color.rgb = MixFog(color.rgb, inputData.fogCoord);

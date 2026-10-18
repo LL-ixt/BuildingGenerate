@@ -1,5 +1,6 @@
 """Shared Blender helpers for the Hanoi kit scripts (houses and towers):
 collections, objects, the two shared materials, FBX export for Unity."""
+import json
 import os
 import bpy
 
@@ -167,3 +168,16 @@ def save_kit(path):
         return False
     bpy.ops.wm.save_as_mainfile(filepath=path)
     return True
+
+
+def write_vehicle(export_dir, report):
+    """Add / replace one entry (by 'name') in Export/Vehicles/vehicles.json, keeping the other vehicles."""
+    path = os.path.join(export_dir, 'vehicles.json')
+    data = {'vehicles': []}
+    if os.path.exists(path):
+        with open(path, encoding='utf-8') as f:
+            data = json.load(f)
+    data['vehicles'] = [v for v in data.get('vehicles', []) if v.get('name') != report['name']] + [report]
+    with open(path, 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=1)
+    return path

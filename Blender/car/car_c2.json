@@ -1,0 +1,25 @@
+{
+ "body": 2624,
+ "wheels": [
+  270,
+  270,
+  270,
+  270
+ ],
+ "total": 3704,
+ "body_faces_by_slot": {
+  "trim": 1010,
+  "paint": 1118,
+  "chrome": 98,
+  "glass": 188,
+  "light": 89,
+  "plate": 26
+ },
+ "rim_radius": 0.266,
+ "iou": {
+  "front34": 0.992,
+  "side": 0.983,
+  "rear34": 0.993,
+  "top": 0.997
+ }
+}

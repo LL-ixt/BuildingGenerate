@@ -24,12 +24,13 @@ using UnityEngine.SceneManagement;
 /// </summary>
 public static class CityPlacer
 {
-    const string CityDir = "Assets/Hanoi/City";
-    const string ChunkDir = CityDir + "/Chunks";
-    const string MainScene = CityDir + "/City_Main.unity";
-    const string RecordPath = CityDir + "/CityPlacement.asset";
+    // main map by default; a test area via CityTarget.With (FlyoverTest.cs)
+    static string CityDir => CityTarget.Dir;
+    static string ChunkDir => CityTarget.ChunkDir;
+    static string MainScene => CityTarget.MainScene;
+    static string RecordPath => CityTarget.RecordPath;
     const string LibPrefabDir = "Assets/Hanoi/Library/Prefabs";
-    static string CityJson => Path.GetFullPath(Path.Combine(HanoiSetup.ProjectDir, "../Map/out/city.json"));
+    static string CityJson => CityTarget.CityJson;
 
     // ------------------------------------------------------------------ city.json
     [Serializable] class City { public float[] bounds; public Grid chunk; public StreetJ street; public Big[] buildings; public LotJ[] lots; public ChunkJ[] chunks; }
@@ -67,7 +68,7 @@ public static class CityPlacer
 
     static int Hash(float x, float y) => unchecked((int)Mathf.Round(x * 10f) * 73856093 ^ (int)Mathf.Round(y * 10f) * 19349663);
     static string LotKey(float x, float y) => $"L{x:F1}_{y:F1}";
-    static string ChunkName(int ix, int iy) => $"Chunk_{ix:00}_{iy:00}";
+    static string ChunkName(int ix, int iy) => $"{CityTarget.Current.prefix}Chunk_{ix:00}_{iy:00}";
 
     // ------------------------------------------------------------------ tube houses
     static bool SameRow(LotJ a, LotJ b) =>
@@ -494,18 +495,22 @@ public static class CityPlacer
         cam.farClipPlane = 5000f; cam.nearClipPlane = 0.2f; cam.fieldOfView = 60f;
         float w = g.nx * g.size, h = g.ny * g.size;
         // the cube's top face maps UV 0..1 over the whole slab: repeat the ground image every 8 m
-        var groundMat = HanoiSetup.LitMaterial("M_BlockGround", new Color(0.36f, 0.35f, 0.33f), 0.1f,
+        // own material per city: its tiling depends on the map size
+        var groundMat = HanoiSetup.LitMaterial(CityTarget.BlockGroundMat, new Color(0.36f, 0.35f, 0.33f), 0.1f,
             "Ground/block_ground.png", new Vector2((w + 400f) / 8f, (h + 400f) / 8f));
         HanoiSetup.Box("BlockGround", new Vector3(g.x0 + w / 2f, -0.06f, g.y0 + h / 2f), new Vector3(w + 400f, 0.1f, h + 400f), groundMat);
         var reg = new GameObject("CityChunks").AddComponent<CityChunks>();
         reg.chunkSize = g.size;
         reg.chunks = chunks;
+        reg.loadMetro = CityTarget.IsMain;           // the metro scene is laid out on the main map
         reg.gameObject.AddComponent<ChunkStreamer>();
         EditorSceneManager.SaveScene(scene, MainScene);
         HanoiLighting.BakeEnvironment();
         EditorSceneManager.SaveScene(scene, MainScene);
 
-        // build settings: main scene first, then every chunk (needed to stream them in a player build)
+        // build settings: main scene first, then every chunk (needed to stream them in a player build);
+        // a test area never replaces the main map there
+        if (!CityTarget.IsMain) return;
         EditorBuildSettings.scenes = new[] { new EditorBuildSettingsScene(MainScene, true) }
             .Concat(chunks.Select(c => new EditorBuildSettingsScene(c.scenePath, true)))
             .Concat(File.Exists(Path.Combine(HanoiSetup.ProjectDir, MetroBuilder.ScenePath))
@@ -520,7 +525,7 @@ public static class CityPlacer
         var reg = UnityEngine.Object.FindFirstObjectByType<CityChunks>();
         foreach (var c in reg.chunks)
             EditorSceneManager.OpenScene(c.scenePath, OpenSceneMode.Additive);
-        if (File.Exists(Path.Combine(HanoiSetup.ProjectDir, MetroBuilder.ScenePath)))      // elevated metro (own scene)
+        if (CityTarget.IsMain && File.Exists(Path.Combine(HanoiSetup.ProjectDir, MetroBuilder.ScenePath)))      // elevated metro (own scene)
             EditorSceneManager.OpenScene(MetroBuilder.ScenePath, OpenSceneMode.Additive);
         reg.SyncHlod();                      // chunk loaded -> its HLOD is hidden (CityChunks.Update keeps it so)
     }

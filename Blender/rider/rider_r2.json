@@ -1,0 +1,75 @@
+{
+ "height": 1.687,
+ "height_macro": 0.5547,
+ "helmet": {
+  "scale": 0.0009915083890942122,
+  "yaw_deg": -46.73,
+  "head_width": 0.17502273619174957,
+  "head_top": 1.6867083311080933
+ },
+ "pose": {
+  "source": "hand edit in HanoiRider.blend"
+ },
+ "credits": {
+  "polo": "Male Polo Shirt by Namuhekam, MakeHuman community, CC0",
+  "trousers": "M Trousers 01, MakeHuman community (http://www.makehumancommunity.org/node/746), CC-BY",
+  "helmet": "This work is based on \"Mu bao hiem samsung\" (https://sketchfab.com/3d-models/mu-bao-hiem-samsung-89f64ad1071b48939603b8c0fd790b4e) by 3dpro.com.vn (https://sketchfab.com/hai3dpro) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)",
+  "body": "MakeHuman / MPFB base mesh (CC0 output)",
+  "shoes": "ELVS Zombie Killer Sneakers, MakeHuman community (makehumancommunity.org/clothes/elvs_zombie_killer_sneakers.html), CC-BY"
+ },
+ "culled": {
+  "Rider_Human": {
+   "faces_before": 9962,
+   "hidden": 3084,
+   "tris_after": 13756
+  },
+  "Rider_Polo_t-shirt": {
+   "faces_before": 2053,
+   "hidden": 433,
+   "tris_after": 3240
+  },
+  "Rider_elvs_zombiekiller_sneakers1": {
+   "faces_before": 153938,
+   "hidden": 92167,
+   "tris_after": 61771
+  },
+  "Rider_m_trousers_01": {
+   "faces_before": 1618,
+   "hidden": 414,
+   "tris_after": 2408
+  },
+  "Rider_Helmet": {
+   "faces_before": 14999,
+   "hidden": 5888,
+   "tris_after": 9111
+  }
+ },
+ "penetration": {
+  "Rider_Polo_t-shirt": {
+   "verts_inside": 17,
+   "max_depth": 0.0147,
+   "deepest_at": [
+    -0.001,
+    0.356,
+    0.898
+   ]
+  },
+  "Rider_m_trousers_01": {
+   "verts_inside": 30,
+   "max_depth": 0.0268,
+   "deepest_at": [
+    -0.009,
+    0.12,
+    0.861
+   ]
+  }
+ },
+ "tris": {
+  "Rider_Human": 13756,
+  "Rider_Polo_t-shirt": 3240,
+  "Rider_elvs_zombiekiller_sneakers1": 61771,
+  "Rider_m_trousers_01": 2408,
+  "Rider_Helmet": 9111,
+  "total": 90286
+ }
+}
